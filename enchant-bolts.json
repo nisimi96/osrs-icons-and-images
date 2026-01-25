@@ -1,0 +1,183 @@
+{
+  "icons": {
+    "baseUrl": "https://oldschool.runescape.wiki/images/",
+    "spellIcon": "Enchant_Crossbow_Bolt_icon.png",
+    "bolts": {
+      "Opal": "Opal_bolts_5.png",
+      "Sapphire": "Sapphire_bolts_5.png",
+      "Jade": "Jade_bolts_5.png",
+      "Pearl": "Pearl_bolts_5.png",
+      "Emerald": "Emerald_bolts_5.png",
+      "Red topaz": "Topaz_bolts_5.png",
+      "Ruby": "Ruby_bolts_5.png",
+      "Diamond": "Diamond_bolts_5.png",
+      "Dragonstone": "Dragonstone_bolts_5.png",
+      "Onyx": "Onyx_bolts_5.png"
+    },
+    "dragonBolts": {
+      "Opal": "Opal_dragon_bolts_5.png",
+      "Sapphire": "Sapphire_dragon_bolts_5.png",
+      "Jade": "Jade_dragon_bolts_5.png",
+      "Pearl": "Pearl_dragon_bolts_5.png",
+      "Emerald": "Emerald_dragon_bolts_5.png",
+      "Red topaz": "Topaz_dragon_bolts_5.png",
+      "Ruby": "Ruby_dragon_bolts_5.png",
+      "Diamond": "Diamond_dragon_bolts_5.png",
+      "Dragonstone": "Dragonstone_dragon_bolts_5.png",
+      "Onyx": "Onyx_dragon_bolts_5.png"
+    }
+  },
+  "spellInfo": {
+    "name": "Enchant Crossbow Bolt",
+    "unlockLevel": 4,
+    "spellIcon": "Enchant_Crossbow_Bolt_icon.png"
+  },
+  "boltEnchants": [
+    {
+      "name": "Opal",
+      "magicLevel": 4,
+      "xp": 9,
+      "icon": "Opal.png",
+      "runes": [
+        {"name": "Air rune", "quantity": 2},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Opal bolts", "output": "Opal bolts (e)"},
+        {"variant": "Dragon", "input": "Opal dragon bolts", "output": "Opal dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Sapphire",
+      "magicLevel": 7,
+      "xp": 17,
+      "icon": "Sapphire.png",
+      "runes": [
+        {"name": "Water rune", "quantity": 1},
+        {"name": "Cosmic rune", "quantity": 1},
+        {"name": "Mind rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Sapphire bolts", "output": "Sapphire bolts (e)"},
+        {"variant": "Dragon", "input": "Sapphire dragon bolts", "output": "Sapphire dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Jade",
+      "magicLevel": 14,
+      "xp": 19,
+      "icon": "Jade.png",
+      "runes": [
+        {"name": "Earth rune", "quantity": 2},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Jade bolts", "output": "Jade bolts (e)"},
+        {"variant": "Dragon", "input": "Jade dragon bolts", "output": "Jade dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Pearl",
+      "magicLevel": 24,
+      "xp": 29,
+      "icon": "Pearl.png",
+      "runes": [
+        {"name": "Water rune", "quantity": 2},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Pearl bolts", "output": "Pearl bolts (e)"},
+        {"variant": "Dragon", "input": "Pearl dragon bolts", "output": "Pearl dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Emerald",
+      "magicLevel": 27,
+      "xp": 37,
+      "icon": "Emerald.png",
+      "runes": [
+        {"name": "Air rune", "quantity": 3},
+        {"name": "Cosmic rune", "quantity": 1},
+        {"name": "Nature rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Emerald bolts", "output": "Emerald bolts (e)"},
+        {"variant": "Dragon", "input": "Emerald dragon bolts", "output": "Emerald dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Red topaz",
+      "magicLevel": 29,
+      "xp": 33,
+      "icon": "Red_topaz.png",
+      "runes": [
+        {"name": "Fire rune", "quantity": 2},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Topaz bolts", "output": "Topaz bolts (e)"},
+        {"variant": "Dragon", "input": "Topaz dragon bolts", "output": "Topaz dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Ruby",
+      "magicLevel": 49,
+      "xp": 59,
+      "icon": "Ruby.png",
+      "runes": [
+        {"name": "Fire rune", "quantity": 5},
+        {"name": "Blood rune", "quantity": 1},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Ruby bolts", "output": "Ruby bolts (e)"},
+        {"variant": "Dragon", "input": "Ruby dragon bolts", "output": "Ruby dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Diamond",
+      "magicLevel": 57,
+      "xp": 67,
+      "icon": "Diamond.png",
+      "runes": [
+        {"name": "Earth rune", "quantity": 10},
+        {"name": "Cosmic rune", "quantity": 1},
+        {"name": "Law rune", "quantity": 2}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Diamond bolts", "output": "Diamond bolts (e)"},
+        {"variant": "Dragon", "input": "Diamond dragon bolts", "output": "Diamond dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Dragonstone",
+      "magicLevel": 68,
+      "xp": 78,
+      "icon": "Dragonstone.png",
+      "runes": [
+        {"name": "Earth rune", "quantity": 15},
+        {"name": "Cosmic rune", "quantity": 1},
+        {"name": "Soul rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Dragonstone bolts", "output": "Dragonstone bolts (e)"},
+        {"variant": "Dragon", "input": "Dragonstone dragon bolts", "output": "Dragonstone dragon bolts (e)"}
+      ]
+    },
+    {
+      "name": "Onyx",
+      "magicLevel": 87,
+      "xp": 97,
+      "icon": "Onyx.png",
+      "runes": [
+        {"name": "Fire rune", "quantity": 20},
+        {"name": "Cosmic rune", "quantity": 1},
+        {"name": "Death rune", "quantity": 1}
+      ],
+      "items": [
+        {"variant": "Regular", "input": "Onyx bolts", "output": "Onyx bolts (e)"},
+        {"variant": "Dragon", "input": "Onyx dragon bolts", "output": "Onyx dragon bolts (e)"}
+      ]
+    }
+  ]
+}
