@@ -1,0 +1,138 @@
+{
+  "enchantSpells": [
+    {
+      "level": 1,
+      "name": "Lvl-1 Enchant",
+      "magicLevel": 7,
+      "xp": 17.5,
+      "runes": [
+        {"name": "Water rune", "quantity": 1},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Opal", "Sapphire"],
+      "items": [
+        {"gem": "Opal", "type": "Ring", "input": "Opal ring", "output": "Ring of pursuit"},
+        {"gem": "Opal", "type": "Necklace", "input": "Opal necklace", "output": "Dodgy necklace"},
+        {"gem": "Opal", "type": "Bracelet", "input": "Opal bracelet", "output": "Expeditious bracelet"},
+        {"gem": "Opal", "type": "Amulet", "input": "Opal amulet", "output": "Amulet of bounty"},
+        {"gem": "Sapphire", "type": "Ring", "input": "Sapphire ring", "output": "Ring of recoil"},
+        {"gem": "Sapphire", "type": "Necklace", "input": "Sapphire necklace", "output": "Games necklace"},
+        {"gem": "Sapphire", "type": "Bracelet", "input": "Sapphire bracelet", "output": "Bracelet of clay"},
+        {"gem": "Sapphire", "type": "Amulet", "input": "Sapphire amulet", "output": "Amulet of magic"}
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Lvl-2 Enchant",
+      "magicLevel": 27,
+      "xp": 37,
+      "runes": [
+        {"name": "Air rune", "quantity": 3},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Jade", "Emerald"],
+      "items": [
+        {"gem": "Jade", "type": "Ring", "input": "Jade ring", "output": "Ring of returning"},
+        {"gem": "Jade", "type": "Necklace", "input": "Jade necklace", "output": "Necklace of passage"},
+        {"gem": "Jade", "type": "Bracelet", "input": "Jade bracelet", "output": "Flamtaer bracelet"},
+        {"gem": "Jade", "type": "Amulet", "input": "Jade amulet", "output": "Amulet of chemistry"},
+        {"gem": "Emerald", "type": "Ring", "input": "Emerald ring", "output": "Ring of dueling"},
+        {"gem": "Emerald", "type": "Necklace", "input": "Emerald necklace", "output": "Binding necklace"},
+        {"gem": "Emerald", "type": "Bracelet", "input": "Emerald bracelet", "output": "Castle wars bracelet"},
+        {"gem": "Emerald", "type": "Amulet", "input": "Emerald amulet", "output": "Amulet of defence"}
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Lvl-3 Enchant",
+      "magicLevel": 49,
+      "xp": 59,
+      "runes": [
+        {"name": "Fire rune", "quantity": 5},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Red topaz", "Ruby"],
+      "items": [
+        {"gem": "Red topaz", "type": "Ring", "input": "Topaz ring", "output": "Efaritay's aid"},
+        {"gem": "Red topaz", "type": "Necklace", "input": "Topaz necklace", "output": "Necklace of faith"},
+        {"gem": "Red topaz", "type": "Bracelet", "input": "Topaz bracelet", "output": "Bracelet of slaughter"},
+        {"gem": "Red topaz", "type": "Amulet", "input": "Topaz amulet", "output": "Burning amulet"},
+        {"gem": "Ruby", "type": "Ring", "input": "Ruby ring", "output": "Ring of forging"},
+        {"gem": "Ruby", "type": "Necklace", "input": "Ruby necklace", "output": "Digsite pendant"},
+        {"gem": "Ruby", "type": "Bracelet", "input": "Ruby bracelet", "output": "Inoculation bracelet"},
+        {"gem": "Ruby", "type": "Amulet", "input": "Ruby amulet", "output": "Amulet of strength"}
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Lvl-4 Enchant",
+      "magicLevel": 57,
+      "xp": 67,
+      "runes": [
+        {"name": "Earth rune", "quantity": 10},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Diamond"],
+      "items": [
+        {"gem": "Diamond", "type": "Ring", "input": "Diamond ring", "output": "Ring of life"},
+        {"gem": "Diamond", "type": "Necklace", "input": "Diamond necklace", "output": "Phoenix necklace"},
+        {"gem": "Diamond", "type": "Bracelet", "input": "Diamond bracelet", "output": "Abyssal bracelet"},
+        {"gem": "Diamond", "type": "Amulet", "input": "Diamond amulet", "output": "Amulet of power"}
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Lvl-5 Enchant",
+      "magicLevel": 68,
+      "xp": 78,
+      "runes": [
+        {"name": "Water rune", "quantity": 15},
+        {"name": "Earth rune", "quantity": 15},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Dragonstone"],
+      "items": [
+        {"gem": "Dragonstone", "type": "Ring", "input": "Dragonstone ring", "output": "Ring of wealth"},
+        {"gem": "Dragonstone", "type": "Necklace", "input": "Dragon necklace", "output": "Skills necklace"},
+        {"gem": "Dragonstone", "type": "Bracelet", "input": "Dragonstone bracelet", "output": "Combat bracelet"},
+        {"gem": "Dragonstone", "type": "Amulet", "input": "Dragonstone amulet", "output": "Amulet of glory"}
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Lvl-6 Enchant",
+      "magicLevel": 87,
+      "xp": 97,
+      "runes": [
+        {"name": "Fire rune", "quantity": 20},
+        {"name": "Earth rune", "quantity": 20},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Onyx"],
+      "items": [
+        {"gem": "Onyx", "type": "Ring", "input": "Onyx ring", "output": "Ring of stone"},
+        {"gem": "Onyx", "type": "Necklace", "input": "Onyx necklace", "output": "Berserker necklace"},
+        {"gem": "Onyx", "type": "Bracelet", "input": "Onyx bracelet", "output": "Regen bracelet"},
+        {"gem": "Onyx", "type": "Amulet", "input": "Onyx amulet", "output": "Amulet of fury"}
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Lvl-7 Enchant",
+      "magicLevel": 93,
+      "xp": 110,
+      "runes": [
+        {"name": "Blood rune", "quantity": 20},
+        {"name": "Soul rune", "quantity": 20},
+        {"name": "Cosmic rune", "quantity": 1}
+      ],
+      "gems": ["Zenyte"],
+      "items": [
+        {"gem": "Zenyte", "type": "Ring", "input": "Zenyte ring", "output": "Ring of suffering"},
+        {"gem": "Zenyte", "type": "Necklace", "input": "Zenyte necklace", "output": "Necklace of anguish"},
+        {"gem": "Zenyte", "type": "Bracelet", "input": "Zenyte bracelet", "output": "Tormented bracelet"},
+        {"gem": "Zenyte", "type": "Amulet", "input": "Zenyte amulet", "output": "Amulet of torture"}
+      ]
+    }
+  ]
+}
