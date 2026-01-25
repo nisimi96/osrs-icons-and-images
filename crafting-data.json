@@ -1,0 +1,130 @@
+{
+  "icons": {
+    "baseUrl": "https://oldschool.runescape.wiki/images/"
+  },
+  "methods": {
+    "gems": {
+      "tool": "Chisel",
+      "toolIcon": "Chisel.png",
+      "items": [
+        { "name": "Opal", "level": 1, "xp": 15.0, "input": "Uncut opal", "inputQty": 1, "output": "Opal", "icon": "Opal.png" },
+        { "name": "Jade", "level": 13, "xp": 20.0, "input": "Uncut jade", "inputQty": 1, "output": "Jade", "icon": "Jade.png" },
+        { "name": "Red topaz", "level": 16, "xp": 25.0, "input": "Uncut red topaz", "inputQty": 1, "output": "Red topaz", "icon": "Red_topaz.png" },
+        { "name": "Sapphire", "level": 20, "xp": 50.0, "input": "Uncut sapphire", "inputQty": 1, "output": "Sapphire", "icon": "Sapphire.png" },
+        { "name": "Emerald", "level": 27, "xp": 67.5, "input": "Uncut emerald", "inputQty": 1, "output": "Emerald", "icon": "Emerald.png" },
+        { "name": "Ruby", "level": 34, "xp": 85.0, "input": "Uncut ruby", "inputQty": 1, "output": "Ruby", "icon": "Ruby.png" },
+        { "name": "Diamond", "level": 43, "xp": 107.5, "input": "Uncut diamond", "inputQty": 1, "output": "Diamond", "icon": "Diamond.png" },
+        { "name": "Zenyte", "level": 89, "xp": 200.0, "input": "Uncut zenyte", "inputQty": 1, "output": "Zenyte", "icon": "Zenyte.png" }
+      ]
+    },
+    "hides": {
+      "tool": "Needle",
+      "toolIcon": "Needle.png",
+      "secondaryTool": "Thread",
+      "categories": [
+        {
+          "name": "Leather",
+          "icon": "Leather.png",
+          "items": [
+            { "name": "Leather gloves", "level": 1, "xp": 13.8, "input": "Leather", "inputQty": 1, "output": "Leather gloves", "icon": "Leather_gloves.png" },
+            { "name": "Leather boots", "level": 7, "xp": 16.3, "input": "Leather", "inputQty": 1, "output": "Leather boots", "icon": "Leather_boots.png" },
+            { "name": "Leather cowl", "level": 9, "xp": 18.5, "input": "Leather", "inputQty": 1, "output": "Leather cowl", "icon": "Leather_cowl.png" },
+            { "name": "Leather vambraces", "level": 11, "xp": 22.0, "input": "Leather", "inputQty": 1, "output": "Leather vambraces", "icon": "Leather_vambraces.png" },
+            { "name": "Leather body", "level": 14, "xp": 25.0, "input": "Leather", "inputQty": 1, "output": "Leather body", "icon": "Leather_body.png" },
+            { "name": "Leather chaps", "level": 18, "xp": 27.0, "input": "Leather", "inputQty": 1, "output": "Leather chaps", "icon": "Leather_chaps.png" },
+            { "name": "Hardleather body", "level": 28, "xp": 35.0, "input": "Hard leather", "inputQty": 1, "output": "Hardleather body", "icon": "Hardleather_body.png" },
+            { "name": "Coif", "level": 38, "xp": 37.0, "input": "Leather", "inputQty": 1, "output": "Coif", "icon": "Coif.png" }
+          ]
+        },
+        {
+          "name": "Green Dragonhide",
+          "icon": "Green_dragon_leather.png",
+          "items": [
+            { "name": "Green d'hide vambraces", "level": 57, "xp": 62.0, "input": "Green dragon leather", "inputQty": 1, "output": "Green d'hide vambraces", "icon": "Green_d%27hide_vambraces.png" },
+            { "name": "Green d'hide chaps", "level": 60, "xp": 124.0, "input": "Green dragon leather", "inputQty": 2, "output": "Green d'hide chaps", "icon": "Green_d%27hide_chaps.png" },
+            { "name": "Green d'hide body", "level": 63, "xp": 186.0, "input": "Green dragon leather", "inputQty": 3, "output": "Green d'hide body", "icon": "Green_d%27hide_body.png" }
+          ]
+        },
+        {
+          "name": "Blue Dragonhide",
+          "icon": "Blue_dragon_leather.png",
+          "items": [
+            { "name": "Blue d'hide vambraces", "level": 66, "xp": 70.0, "input": "Blue dragon leather", "inputQty": 1, "output": "Blue d'hide vambraces", "icon": "Blue_d%27hide_vambraces.png" },
+            { "name": "Blue d'hide chaps", "level": 68, "xp": 140.0, "input": "Blue dragon leather", "inputQty": 2, "output": "Blue d'hide chaps", "icon": "Blue_d%27hide_chaps.png" },
+            { "name": "Blue d'hide body", "level": 71, "xp": 210.0, "input": "Blue dragon leather", "inputQty": 3, "output": "Blue d'hide body", "icon": "Blue_d%27hide_body.png" }
+          ]
+        },
+        {
+          "name": "Red Dragonhide",
+          "icon": "Red_dragon_leather.png",
+          "items": [
+            { "name": "Red d'hide vambraces", "level": 73, "xp": 78.0, "input": "Red dragon leather", "inputQty": 1, "output": "Red d'hide vambraces", "icon": "Red_d%27hide_vambraces.png" },
+            { "name": "Red d'hide chaps", "level": 75, "xp": 156.0, "input": "Red dragon leather", "inputQty": 2, "output": "Red d'hide chaps", "icon": "Red_d%27hide_chaps.png" },
+            { "name": "Red d'hide body", "level": 77, "xp": 234.0, "input": "Red dragon leather", "inputQty": 3, "output": "Red d'hide body", "icon": "Red_d%27hide_body.png" }
+          ]
+        },
+        {
+          "name": "Black Dragonhide",
+          "icon": "Black_dragon_leather.png",
+          "items": [
+            { "name": "Black d'hide vambraces", "level": 79, "xp": 86.0, "input": "Black dragon leather", "inputQty": 1, "output": "Black d'hide vambraces", "icon": "Black_d%27hide_vambraces.png" },
+            { "name": "Black d'hide chaps", "level": 82, "xp": 172.0, "input": "Black dragon leather", "inputQty": 2, "output": "Black d'hide chaps", "icon": "Black_d%27hide_chaps.png" },
+            { "name": "Black d'hide body", "level": 84, "xp": 258.0, "input": "Black dragon leather", "inputQty": 3, "output": "Black d'hide body", "icon": "Black_d%27hide_body.png" }
+          ]
+        },
+        {
+          "name": "Xerician",
+          "icon": "Xerician_fabric.png",
+          "items": [
+            { "name": "Xerician hat", "level": 14, "xp": 66.0, "input": "Xerician fabric", "inputQty": 3, "output": "Xerician hat", "icon": "Xerician_hat.png" },
+            { "name": "Xerician robe", "level": 17, "xp": 88.0, "input": "Xerician fabric", "inputQty": 4, "output": "Xerician robe", "icon": "Xerician_robe.png" },
+            { "name": "Xerician top", "level": 22, "xp": 110.0, "input": "Xerician fabric", "inputQty": 5, "output": "Xerician top", "icon": "Xerician_top.png" }
+          ]
+        },
+        {
+          "name": "Hueycoatl",
+          "icon": "Hueycoatl_hide.png",
+          "items": [
+            { "name": "Hueycoatl hide vambraces", "level": 76, "xp": 95.0, "input": "Hueycoatl hide", "inputQty": 1, "output": "Hueycoatl hide vambraces", "icon": "Hueycoatl_hide_vambraces.png" },
+            { "name": "Hueycoatl hide coif", "level": 76, "xp": 190.0, "input": "Hueycoatl hide", "inputQty": 2, "output": "Hueycoatl hide coif", "icon": "Hueycoatl_hide_coif.png" },
+            { "name": "Hueycoatl hide chaps", "level": 77, "xp": 190.0, "input": "Hueycoatl hide", "inputQty": 2, "output": "Hueycoatl hide chaps", "icon": "Hueycoatl_hide_chaps.png" },
+            { "name": "Hueycoatl hide body", "level": 78, "xp": 285.0, "input": "Hueycoatl hide", "inputQty": 3, "output": "Hueycoatl hide body", "icon": "Hueycoatl_hide_body.png" }
+          ]
+        }
+      ]
+    },
+    "glass": {
+      "tool": "Glassblowing pipe",
+      "toolIcon": "Glassblowing_pipe.png",
+      "items": [
+        { "name": "Beer glass", "level": 1, "xp": 17.5, "input": "Molten glass", "inputQty": 1, "output": "Beer glass", "icon": "Beer_glass.png" },
+        { "name": "Empty candle lantern", "level": 4, "xp": 19.0, "input": "Molten glass", "inputQty": 1, "output": "Empty candle lantern", "icon": "Empty_candle_lantern.png" },
+        { "name": "Empty oil lamp", "level": 12, "xp": 25.0, "input": "Molten glass", "inputQty": 1, "output": "Empty oil lamp", "icon": "Empty_oil_lamp.png" },
+        { "name": "Vial", "level": 33, "xp": 35.0, "input": "Molten glass", "inputQty": 1, "output": "Vial", "icon": "Vial.png" },
+        { "name": "Fishbowl", "level": 42, "xp": 42.5, "input": "Molten glass", "inputQty": 1, "output": "Fishbowl", "icon": "Fishbowl.png" },
+        { "name": "Unpowered orb", "level": 46, "xp": 52.5, "input": "Molten glass", "inputQty": 1, "output": "Unpowered orb", "icon": "Unpowered_orb.png" },
+        { "name": "Lantern lens", "level": 49, "xp": 55.0, "input": "Molten glass", "inputQty": 1, "output": "Lantern lens", "icon": "Lantern_lens.png" },
+        { "name": "Empty light orb", "level": 87, "xp": 70.0, "input": "Molten glass", "inputQty": 1, "output": "Empty light orb", "icon": "Empty_light_orb.png" }
+      ]
+    },
+    "battlestaves": {
+      "tool": null,
+      "items": [
+        { "name": "Water battlestaff", "level": 54, "xp": 100.0, "input": "Battlestaff", "inputQty": 1, "secondaryInput": "Water orb", "secondaryInputQty": 1, "output": "Water battlestaff", "icon": "Water_battlestaff.png" },
+        { "name": "Earth battlestaff", "level": 58, "xp": 112.5, "input": "Battlestaff", "inputQty": 1, "secondaryInput": "Earth orb", "secondaryInputQty": 1, "output": "Earth battlestaff", "icon": "Earth_battlestaff.png" },
+        { "name": "Fire battlestaff", "level": 62, "xp": 125.0, "input": "Battlestaff", "inputQty": 1, "secondaryInput": "Fire orb", "secondaryInputQty": 1, "output": "Fire battlestaff", "icon": "Fire_battlestaff.png" },
+        { "name": "Air battlestaff", "level": 66, "xp": 137.5, "input": "Battlestaff", "inputQty": 1, "secondaryInput": "Air orb", "secondaryInputQty": 1, "output": "Air battlestaff", "icon": "Air_battlestaff.png" }
+      ]
+    },
+    "amethyst": {
+      "tool": "Chisel",
+      "toolIcon": "Chisel.png",
+      "items": [
+        { "name": "Amethyst bolt tips", "level": 83, "xp": 60.0, "input": "Amethyst", "inputQty": 1, "output": "Amethyst bolt tips", "icon": "Amethyst_bolt_tips.png" },
+        { "name": "Amethyst arrowtips", "level": 85, "xp": 60.0, "input": "Amethyst", "inputQty": 1, "output": "Amethyst arrowtips", "icon": "Amethyst_arrowtips.png" },
+        { "name": "Amethyst javelin heads", "level": 87, "xp": 60.0, "input": "Amethyst", "inputQty": 1, "output": "Amethyst javelin heads", "icon": "Amethyst_javelin_heads.png" },
+        { "name": "Amethyst dart tip", "level": 89, "xp": 60.0, "input": "Amethyst", "inputQty": 1, "output": "Amethyst dart tip", "icon": "Amethyst_dart_tip.png" }
+      ]
+    }
+  }
+}
