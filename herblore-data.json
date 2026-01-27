@@ -1,0 +1,1343 @@
+{
+  "skill": "Herblore",
+  "skillIcon": "Herblore_icon.png",
+  "icons": {
+    "baseUrl": "https://oldschool.runescape.wiki/images/"
+  },
+  "tools": {
+    "pestleAndMortar": {
+      "name": "Pestle and mortar",
+      "itemId": 233,
+      "icon": "Pestle_and_mortar.png"
+    }
+  },
+  "bases": {
+    "vialOfWater": { "name": "Vial of water", "itemId": 227, "icon": "Vial_of_water.png" },
+    "coconutMilk": { "name": "Coconut milk", "itemId": 5935, "icon": "Coconut_milk.png" },
+    "vialOfBlood": { "name": "Vial of blood", "itemId": 22446, "icon": "Vial_of_blood.png" }
+  },
+  "methods": {
+    "herbCleaning": {
+      "description": "Cleaning grimy herbs to obtain clean herbs for use in potions.",
+      "items": [
+        {
+          "name": "Guam leaf",
+          "grimyItemId": 199,
+          "cleanItemId": 249,
+          "level": 3,
+          "xp": 2.5,
+          "grimyIcon": "Grimy_guam_leaf.png",
+          "cleanIcon": "Guam_leaf.png"
+        },
+        {
+          "name": "Marrentill",
+          "grimyItemId": 201,
+          "cleanItemId": 251,
+          "level": 5,
+          "xp": 3.8,
+          "grimyIcon": "Grimy_marrentill.png",
+          "cleanIcon": "Marrentill.png"
+        },
+        {
+          "name": "Tarromin",
+          "grimyItemId": 203,
+          "cleanItemId": 253,
+          "level": 11,
+          "xp": 5.0,
+          "grimyIcon": "Grimy_tarromin.png",
+          "cleanIcon": "Tarromin.png"
+        },
+        {
+          "name": "Harralander",
+          "grimyItemId": 205,
+          "cleanItemId": 255,
+          "level": 20,
+          "xp": 6.3,
+          "grimyIcon": "Grimy_harralander.png",
+          "cleanIcon": "Harralander.png"
+        },
+        {
+          "name": "Ranarr weed",
+          "grimyItemId": 207,
+          "cleanItemId": 257,
+          "level": 25,
+          "xp": 7.5,
+          "grimyIcon": "Grimy_ranarr_weed.png",
+          "cleanIcon": "Ranarr_weed.png"
+        },
+        {
+          "name": "Toadflax",
+          "grimyItemId": 3049,
+          "cleanItemId": 2998,
+          "level": 30,
+          "xp": 8.0,
+          "grimyIcon": "Grimy_toadflax.png",
+          "cleanIcon": "Toadflax.png"
+        },
+        {
+          "name": "Irit leaf",
+          "grimyItemId": 209,
+          "cleanItemId": 259,
+          "level": 40,
+          "xp": 8.8,
+          "grimyIcon": "Grimy_irit_leaf.png",
+          "cleanIcon": "Irit_leaf.png"
+        },
+        {
+          "name": "Avantoe",
+          "grimyItemId": 211,
+          "cleanItemId": 261,
+          "level": 48,
+          "xp": 10.0,
+          "grimyIcon": "Grimy_avantoe.png",
+          "cleanIcon": "Avantoe.png"
+        },
+        {
+          "name": "Kwuarm",
+          "grimyItemId": 213,
+          "cleanItemId": 263,
+          "level": 54,
+          "xp": 11.3,
+          "grimyIcon": "Grimy_kwuarm.png",
+          "cleanIcon": "Kwuarm.png"
+        },
+        {
+          "name": "Huasca",
+          "grimyItemId": 30094,
+          "cleanItemId": 30097,
+          "level": 58,
+          "xp": 11.8,
+          "grimyIcon": "Grimy_huasca.png",
+          "cleanIcon": "Huasca.png"
+        },
+        {
+          "name": "Snapdragon",
+          "grimyItemId": 3051,
+          "cleanItemId": 3000,
+          "level": 59,
+          "xp": 11.8,
+          "grimyIcon": "Grimy_snapdragon.png",
+          "cleanIcon": "Snapdragon.png"
+        },
+        {
+          "name": "Cadantine",
+          "grimyItemId": 215,
+          "cleanItemId": 265,
+          "level": 65,
+          "xp": 12.5,
+          "grimyIcon": "Grimy_cadantine.png",
+          "cleanIcon": "Cadantine.png"
+        },
+        {
+          "name": "Lantadyme",
+          "grimyItemId": 2485,
+          "cleanItemId": 2481,
+          "level": 67,
+          "xp": 13.1,
+          "grimyIcon": "Grimy_lantadyme.png",
+          "cleanIcon": "Lantadyme.png"
+        },
+        {
+          "name": "Dwarf weed",
+          "grimyItemId": 217,
+          "cleanItemId": 267,
+          "level": 70,
+          "xp": 13.8,
+          "grimyIcon": "Grimy_dwarf_weed.png",
+          "cleanIcon": "Dwarf_weed.png"
+        },
+        {
+          "name": "Torstol",
+          "grimyItemId": 219,
+          "cleanItemId": 269,
+          "level": 75,
+          "xp": 15.0,
+          "grimyIcon": "Grimy_torstol.png",
+          "cleanIcon": "Torstol.png"
+        }
+      ]
+    },
+    "tars": {
+      "description": "Making tar by combining a herb with 15 swamp tar using a pestle and mortar. Produces 15 tar per action.",
+      "tool": "Pestle and mortar",
+      "toolItemId": 233,
+      "toolIcon": "Pestle_and_mortar.png",
+      "secondaryInput": "Swamp tar",
+      "secondaryInputItemId": 1939,
+      "secondaryInputQty": 15,
+      "secondaryInputIcon": "Swamp_tar.png",
+      "outputQty": 15,
+      "items": [
+        {
+          "name": "Guam tar",
+          "itemId": 10142,
+          "level": 19,
+          "xp": 30.0,
+          "herb": "Guam leaf",
+          "herbItemId": 249,
+          "icon": "Guam_tar.png"
+        },
+        {
+          "name": "Marrentill tar",
+          "itemId": 10143,
+          "level": 31,
+          "xp": 42.5,
+          "herb": "Marrentill",
+          "herbItemId": 251,
+          "icon": "Marrentill_tar.png"
+        },
+        {
+          "name": "Tarromin tar",
+          "itemId": 10144,
+          "level": 39,
+          "xp": 55.0,
+          "herb": "Tarromin",
+          "herbItemId": 253,
+          "icon": "Tarromin_tar.png"
+        },
+        {
+          "name": "Harralander tar",
+          "itemId": 10145,
+          "level": 44,
+          "xp": 72.5,
+          "herb": "Harralander",
+          "herbItemId": 255,
+          "icon": "Harralander_tar.png"
+        },
+        {
+          "name": "Irit tar",
+          "itemId": 28837,
+          "level": 55,
+          "xp": 85.0,
+          "herb": "Irit leaf",
+          "herbItemId": 259,
+          "icon": "Irit_tar.png"
+        }
+      ]
+    },
+    "barbarianMixes": {
+      "description": "Barbarian mixes are created by adding fish roe or caviar to a 2-dose potion. Requires completion of Barbarian Training.",
+      "fishIngredients": {
+        "roe": { "name": "Roe", "itemId": 11324, "icon": "Roe.png" },
+        "caviar": { "name": "Caviar", "itemId": 11326, "icon": "Caviar.png" }
+      },
+      "items": [
+        {
+          "name": "Attack mix",
+          "itemId": 11429,
+          "level": 4,
+          "xp": 8.0,
+          "basePotion": "Attack potion",
+          "basePotionItemId": 121,
+          "fish": "Roe",
+          "fishItemId": 11324,
+          "icon": "Attack_mix(2).png"
+        },
+        {
+          "name": "Antipoison mix",
+          "itemId": 11433,
+          "level": 6,
+          "xp": 12.0,
+          "basePotion": "Antipoison",
+          "basePotionItemId": 175,
+          "fish": "Roe",
+          "fishItemId": 11324,
+          "icon": "Antipoison_mix(2).png"
+        },
+        {
+          "name": "Relicym's mix",
+          "itemId": 11437,
+          "level": 9,
+          "xp": 14.0,
+          "basePotion": "Relicym's balm",
+          "basePotionItemId": 4844,
+          "fish": "Roe",
+          "fishItemId": 11324,
+          "icon": "Relicym%27s_mix(2).png"
+        },
+        {
+          "name": "Strength mix",
+          "itemId": 11443,
+          "level": 14,
+          "xp": 17.0,
+          "basePotion": "Strength potion",
+          "basePotionItemId": 115,
+          "fish": "Roe",
+          "fishItemId": 11324,
+          "icon": "Strength_mix(2).png"
+        },
+        {
+          "name": "Restore mix",
+          "itemId": 11449,
+          "level": 24,
+          "xp": 21.0,
+          "basePotion": "Restore potion",
+          "basePotionItemId": 127,
+          "fish": "Roe",
+          "fishItemId": 11324,
+          "icon": "Restore_mix(2).png"
+        },
+        {
+          "name": "Energy mix",
+          "itemId": 11453,
+          "level": 29,
+          "xp": 23.0,
+          "basePotion": "Energy potion",
+          "basePotionItemId": 3010,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Energy_mix(2).png"
+        },
+        {
+          "name": "Defence mix",
+          "itemId": 11457,
+          "level": 33,
+          "xp": 25.0,
+          "basePotion": "Defence potion",
+          "basePotionItemId": 133,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Defence_mix(2).png"
+        },
+        {
+          "name": "Agility mix",
+          "itemId": 11461,
+          "level": 37,
+          "xp": 27.0,
+          "basePotion": "Agility potion",
+          "basePotionItemId": 3034,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Agility_mix(2).png"
+        },
+        {
+          "name": "Combat mix",
+          "itemId": 11445,
+          "level": 40,
+          "xp": 28.0,
+          "basePotion": "Combat potion",
+          "basePotionItemId": 9741,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Combat_mix(2).png"
+        },
+        {
+          "name": "Prayer mix",
+          "itemId": 11465,
+          "level": 42,
+          "xp": 29.0,
+          "basePotion": "Prayer potion",
+          "basePotionItemId": 139,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Prayer_mix(2).png"
+        },
+        {
+          "name": "Super attack mix",
+          "itemId": 11469,
+          "level": 47,
+          "xp": 33.0,
+          "basePotion": "Super attack",
+          "basePotionItemId": 145,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Super_attack_mix(2).png"
+        },
+        {
+          "name": "Anti-poison supermix",
+          "itemId": 11473,
+          "level": 51,
+          "xp": 35.0,
+          "basePotion": "Superantipoison",
+          "basePotionItemId": 181,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Anti-poison_supermix(2).png"
+        },
+        {
+          "name": "Fishing mix",
+          "itemId": 11477,
+          "level": 53,
+          "xp": 38.0,
+          "basePotion": "Fishing potion",
+          "basePotionItemId": 151,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Fishing_mix(2).png"
+        },
+        {
+          "name": "Super energy mix",
+          "itemId": 11481,
+          "level": 56,
+          "xp": 39.0,
+          "basePotion": "Super energy",
+          "basePotionItemId": 3018,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Super_energy_mix(2).png"
+        },
+        {
+          "name": "Hunting mix",
+          "itemId": 11517,
+          "level": 58,
+          "xp": 40.0,
+          "basePotion": "Hunter potion",
+          "basePotionItemId": 10000,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Hunting_mix(2).png"
+        },
+        {
+          "name": "Super strength mix",
+          "itemId": 11485,
+          "level": 59,
+          "xp": 42.0,
+          "basePotion": "Super strength",
+          "basePotionItemId": 157,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Super_strength_mix(2).png"
+        },
+        {
+          "name": "Magic essence mix",
+          "itemId": 11489,
+          "level": 61,
+          "xp": 43.0,
+          "basePotion": "Magic essence",
+          "basePotionItemId": 9021,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Magic_essence_mix(2).png"
+        },
+        {
+          "name": "Super restore mix",
+          "itemId": 11493,
+          "level": 67,
+          "xp": 48.0,
+          "basePotion": "Super restore",
+          "basePotionItemId": 3026,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Super_restore_mix(2).png"
+        },
+        {
+          "name": "Super defence mix",
+          "itemId": 11497,
+          "level": 71,
+          "xp": 50.0,
+          "basePotion": "Super defence",
+          "basePotionItemId": 163,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Super_defence_mix(2).png"
+        },
+        {
+          "name": "Antidote+ mix",
+          "itemId": 11501,
+          "level": 74,
+          "xp": 52.0,
+          "basePotion": "Antidote+",
+          "basePotionItemId": 5945,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Antidote%2B_mix(2).png"
+        },
+        {
+          "name": "Antifire mix",
+          "itemId": 11505,
+          "level": 75,
+          "xp": 53.0,
+          "basePotion": "Antifire potion",
+          "basePotionItemId": 2454,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Antifire_mix(2).png"
+        },
+        {
+          "name": "Ranging mix",
+          "itemId": 11509,
+          "level": 80,
+          "xp": 54.0,
+          "basePotion": "Ranging potion",
+          "basePotionItemId": 169,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Ranging_mix(2).png"
+        },
+        {
+          "name": "Magic mix",
+          "itemId": 11513,
+          "level": 83,
+          "xp": 57.0,
+          "basePotion": "Magic potion",
+          "basePotionItemId": 3042,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Magic_mix(2).png"
+        },
+        {
+          "name": "Zamorak mix",
+          "itemId": 11521,
+          "level": 85,
+          "xp": 58.0,
+          "basePotion": "Zamorak brew",
+          "basePotionItemId": 189,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Zamorak_mix(2).png"
+        },
+        {
+          "name": "Stamina mix",
+          "itemId": 12633,
+          "level": 86,
+          "xp": 60.0,
+          "basePotion": "Stamina potion",
+          "basePotionItemId": 12627,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Stamina_mix(2).png"
+        },
+        {
+          "name": "Extended antifire mix",
+          "itemId": 11960,
+          "level": 91,
+          "xp": 61.0,
+          "basePotion": "Extended antifire",
+          "basePotionItemId": 11953,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Extended_antifire_mix(2).png"
+        },
+        {
+          "name": "Ancient mix",
+          "itemId": 26350,
+          "level": 92,
+          "xp": 63.0,
+          "basePotion": "Ancient brew",
+          "basePotionItemId": 26342,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Ancient_mix(2).png"
+        },
+        {
+          "name": "Super antifire mix",
+          "itemId": 21994,
+          "level": 98,
+          "xp": 70.0,
+          "basePotion": "Super antifire potion",
+          "basePotionItemId": 21981,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Super_antifire_mix(2).png"
+        },
+        {
+          "name": "Extended super antifire mix",
+          "itemId": 22221,
+          "level": 99,
+          "xp": 78.0,
+          "basePotion": "Extended super antifire",
+          "basePotionItemId": 22212,
+          "fish": "Caviar",
+          "fishItemId": 11326,
+          "icon": "Extended_super_antifire_mix(2).png"
+        }
+      ]
+    },
+    "potions": {
+      "unfinishedPotions": {
+        "description": "Unfinished potions are created by adding a clean herb to a vial of water (or coconut milk / vial of blood for special potions).",
+        "items": [
+          { "name": "Guam potion (unf)", "itemId": 91, "herb": "Guam leaf", "herbItemId": 249, "base": "Vial of water", "baseItemId": 227, "icon": "Guam_potion_(unf).png" },
+          { "name": "Marrentill potion (unf)", "itemId": 93, "herb": "Marrentill", "herbItemId": 251, "base": "Vial of water", "baseItemId": 227, "icon": "Marrentill_potion_(unf).png" },
+          { "name": "Tarromin potion (unf)", "itemId": 95, "herb": "Tarromin", "herbItemId": 253, "base": "Vial of water", "baseItemId": 227, "icon": "Tarromin_potion_(unf).png" },
+          { "name": "Harralander potion (unf)", "itemId": 97, "herb": "Harralander", "herbItemId": 255, "base": "Vial of water", "baseItemId": 227, "icon": "Harralander_potion_(unf).png" },
+          { "name": "Ranarr potion (unf)", "itemId": 99, "herb": "Ranarr weed", "herbItemId": 257, "base": "Vial of water", "baseItemId": 227, "icon": "Ranarr_potion_(unf).png" },
+          { "name": "Toadflax potion (unf)", "itemId": 3002, "herb": "Toadflax", "herbItemId": 2998, "base": "Vial of water", "baseItemId": 227, "icon": "Toadflax_potion_(unf).png" },
+          { "name": "Irit potion (unf)", "itemId": 101, "herb": "Irit leaf", "herbItemId": 259, "base": "Vial of water", "baseItemId": 227, "icon": "Irit_potion_(unf).png" },
+          { "name": "Avantoe potion (unf)", "itemId": 103, "herb": "Avantoe", "herbItemId": 261, "base": "Vial of water", "baseItemId": 227, "icon": "Avantoe_potion_(unf).png" },
+          { "name": "Kwuarm potion (unf)", "itemId": 105, "herb": "Kwuarm", "herbItemId": 263, "base": "Vial of water", "baseItemId": 227, "icon": "Kwuarm_potion_(unf).png" },
+          { "name": "Snapdragon potion (unf)", "itemId": 3004, "herb": "Snapdragon", "herbItemId": 3000, "base": "Vial of water", "baseItemId": 227, "icon": "Snapdragon_potion_(unf).png" },
+          { "name": "Cadantine potion (unf)", "itemId": 107, "herb": "Cadantine", "herbItemId": 265, "base": "Vial of water", "baseItemId": 227, "icon": "Cadantine_potion_(unf).png" },
+          { "name": "Lantadyme potion (unf)", "itemId": 2483, "herb": "Lantadyme", "herbItemId": 2481, "base": "Vial of water", "baseItemId": 227, "icon": "Lantadyme_potion_(unf).png" },
+          { "name": "Dwarf weed potion (unf)", "itemId": 109, "herb": "Dwarf weed", "herbItemId": 267, "base": "Vial of water", "baseItemId": 227, "icon": "Dwarf_weed_potion_(unf).png" },
+          { "name": "Torstol potion (unf)", "itemId": 111, "herb": "Torstol", "herbItemId": 269, "base": "Vial of water", "baseItemId": 227, "icon": "Torstol_potion_(unf).png" },
+          { "name": "Huasca potion (unf)", "itemId": 30100, "herb": "Huasca", "herbItemId": 30097, "base": "Vial of water", "baseItemId": 227, "icon": "Huasca_potion_(unf).png" },
+          { "name": "Cadantine blood potion (unf)", "itemId": 22443, "herb": "Cadantine", "herbItemId": 265, "base": "Vial of blood", "baseItemId": 22446, "icon": "Cadantine_blood_potion_(unf).png" }
+        ]
+      },
+      "standardPotions": {
+        "description": "Standard potions made by combining an unfinished potion with a secondary ingredient.",
+        "items": [
+          {
+            "name": "Attack potion",
+            "itemId": 121,
+            "level": 3,
+            "xp": 25.0,
+            "unfPotion": "Guam potion (unf)",
+            "unfPotionItemId": 91,
+            "herb": "Guam leaf",
+            "herbItemId": 249,
+            "secondary": "Eye of newt",
+            "secondaryItemId": 221,
+            "icon": "Attack_potion(3).png"
+          },
+          {
+            "name": "Antipoison",
+            "itemId": 175,
+            "level": 5,
+            "xp": 37.5,
+            "unfPotion": "Marrentill potion (unf)",
+            "unfPotionItemId": 93,
+            "herb": "Marrentill",
+            "herbItemId": 251,
+            "secondary": "Unicorn horn dust",
+            "secondaryItemId": 235,
+            "icon": "Antipoison(3).png"
+          },
+          {
+            "name": "Relicym's balm",
+            "itemId": 4844,
+            "level": 8,
+            "xp": 40.0,
+            "unfPotion": "Rogue's purse potion (unf)",
+            "unfPotionItemId": 4840,
+            "herb": "Rogue's purse",
+            "herbItemId": 4836,
+            "secondary": "Snake weed",
+            "secondaryItemId": 1526,
+            "icon": "Relicym%27s_balm(3).png"
+          },
+          {
+            "name": "Strength potion",
+            "itemId": 115,
+            "level": 12,
+            "xp": 50.0,
+            "unfPotion": "Tarromin potion (unf)",
+            "unfPotionItemId": 95,
+            "herb": "Tarromin",
+            "herbItemId": 253,
+            "secondary": "Limpwurt root",
+            "secondaryItemId": 225,
+            "icon": "Strength_potion(3).png"
+          },
+          {
+            "name": "Serum 207",
+            "itemId": 3410,
+            "level": 15,
+            "xp": 50.0,
+            "unfPotion": "Tarromin potion (unf)",
+            "unfPotionItemId": 95,
+            "herb": "Tarromin",
+            "herbItemId": 253,
+            "secondary": "Ashes",
+            "secondaryItemId": 592,
+            "icon": "Serum_207_(3).png"
+          },
+          {
+            "name": "Compost potion",
+            "itemId": 6472,
+            "level": 22,
+            "xp": 60.0,
+            "unfPotion": "Harralander potion (unf)",
+            "unfPotionItemId": 97,
+            "herb": "Harralander",
+            "herbItemId": 255,
+            "secondary": "Volcanic ash",
+            "secondaryItemId": 21622,
+            "icon": "Compost_potion(3).png"
+          },
+          {
+            "name": "Restore potion",
+            "itemId": 127,
+            "level": 22,
+            "xp": 62.5,
+            "unfPotion": "Harralander potion (unf)",
+            "unfPotionItemId": 97,
+            "herb": "Harralander",
+            "herbItemId": 255,
+            "secondary": "Red spiders' eggs",
+            "secondaryItemId": 223,
+            "icon": "Restore_potion(3).png"
+          },
+          {
+            "name": "Energy potion",
+            "itemId": 3010,
+            "level": 26,
+            "xp": 67.5,
+            "unfPotion": "Harralander potion (unf)",
+            "unfPotionItemId": 97,
+            "herb": "Harralander",
+            "herbItemId": 255,
+            "secondary": "Chocolate dust",
+            "secondaryItemId": 1975,
+            "icon": "Energy_potion(3).png"
+          },
+          {
+            "name": "Defence potion",
+            "itemId": 133,
+            "level": 30,
+            "xp": 75.0,
+            "unfPotion": "Ranarr potion (unf)",
+            "unfPotionItemId": 99,
+            "herb": "Ranarr weed",
+            "herbItemId": 257,
+            "secondary": "White berries",
+            "secondaryItemId": 239,
+            "icon": "Defence_potion(3).png"
+          },
+          {
+            "name": "Agility potion",
+            "itemId": 3034,
+            "level": 34,
+            "xp": 80.0,
+            "unfPotion": "Toadflax potion (unf)",
+            "unfPotionItemId": 3002,
+            "herb": "Toadflax",
+            "herbItemId": 2998,
+            "secondary": "Toad's legs",
+            "secondaryItemId": 2152,
+            "icon": "Agility_potion(3).png"
+          },
+          {
+            "name": "Combat potion",
+            "itemId": 9741,
+            "level": 36,
+            "xp": 84.0,
+            "unfPotion": "Harralander potion (unf)",
+            "unfPotionItemId": 97,
+            "herb": "Harralander",
+            "herbItemId": 255,
+            "secondary": "Goat horn dust",
+            "secondaryItemId": 9736,
+            "icon": "Combat_potion(3).png"
+          },
+          {
+            "name": "Prayer potion",
+            "itemId": 139,
+            "level": 38,
+            "xp": 87.5,
+            "unfPotion": "Ranarr potion (unf)",
+            "unfPotionItemId": 99,
+            "herb": "Ranarr weed",
+            "herbItemId": 257,
+            "secondary": "Snape grass",
+            "secondaryItemId": 231,
+            "icon": "Prayer_potion(3).png"
+          },
+          {
+            "name": "Super attack",
+            "itemId": 145,
+            "level": 45,
+            "xp": 100.0,
+            "unfPotion": "Irit potion (unf)",
+            "unfPotionItemId": 101,
+            "herb": "Irit leaf",
+            "herbItemId": 259,
+            "secondary": "Eye of newt",
+            "secondaryItemId": 221,
+            "icon": "Super_attack(3).png"
+          },
+          {
+            "name": "Superantipoison",
+            "itemId": 181,
+            "level": 48,
+            "xp": 106.3,
+            "unfPotion": "Irit potion (unf)",
+            "unfPotionItemId": 101,
+            "herb": "Irit leaf",
+            "herbItemId": 259,
+            "secondary": "Unicorn horn dust",
+            "secondaryItemId": 235,
+            "icon": "Superantipoison(3).png"
+          },
+          {
+            "name": "Fishing potion",
+            "itemId": 151,
+            "level": 50,
+            "xp": 112.5,
+            "unfPotion": "Avantoe potion (unf)",
+            "unfPotionItemId": 103,
+            "herb": "Avantoe",
+            "herbItemId": 261,
+            "secondary": "Snape grass",
+            "secondaryItemId": 231,
+            "icon": "Fishing_potion(3).png"
+          },
+          {
+            "name": "Super energy",
+            "itemId": 3018,
+            "level": 52,
+            "xp": 117.5,
+            "unfPotion": "Avantoe potion (unf)",
+            "unfPotionItemId": 103,
+            "herb": "Avantoe",
+            "herbItemId": 261,
+            "secondary": "Mort myre fungus",
+            "secondaryItemId": 2970,
+            "icon": "Super_energy(3).png"
+          },
+          {
+            "name": "Hunter potion",
+            "itemId": 10000,
+            "level": 53,
+            "xp": 120.0,
+            "unfPotion": "Avantoe potion (unf)",
+            "unfPotionItemId": 103,
+            "herb": "Avantoe",
+            "herbItemId": 261,
+            "secondary": "Kebbit teeth dust",
+            "secondaryItemId": 10111,
+            "icon": "Hunter_potion(3).png"
+          },
+          {
+            "name": "Goading potion",
+            "itemId": 30140,
+            "level": 54,
+            "xp": 132.0,
+            "unfPotion": "Harralander potion (unf)",
+            "unfPotionItemId": 97,
+            "herb": "Harralander",
+            "herbItemId": 255,
+            "secondary": "Aldarium",
+            "secondaryItemId": 29993,
+            "icon": "Goading_potion(3).png"
+          },
+          {
+            "name": "Super strength",
+            "itemId": 157,
+            "level": 55,
+            "xp": 125.0,
+            "unfPotion": "Kwuarm potion (unf)",
+            "unfPotionItemId": 105,
+            "herb": "Kwuarm",
+            "herbItemId": 263,
+            "secondary": "Limpwurt root",
+            "secondaryItemId": 225,
+            "icon": "Super_strength(3).png"
+          },
+          {
+            "name": "Prayer regeneration potion",
+            "itemId": 30128,
+            "level": 58,
+            "xp": 132.0,
+            "unfPotion": "Huasca potion (unf)",
+            "unfPotionItemId": 30100,
+            "herb": "Huasca",
+            "herbItemId": 30097,
+            "secondary": "Aldarium",
+            "secondaryItemId": 29993,
+            "icon": "Prayer_regeneration_potion(3).png"
+          },
+          {
+            "name": "Weapon poison",
+            "itemId": 187,
+            "level": 60,
+            "xp": 137.5,
+            "unfPotion": "Kwuarm potion (unf)",
+            "unfPotionItemId": 105,
+            "herb": "Kwuarm",
+            "herbItemId": 263,
+            "secondary": "Dragon scale dust",
+            "secondaryItemId": 241,
+            "icon": "Weapon_poison.png"
+          },
+          {
+            "name": "Super restore",
+            "itemId": 3026,
+            "level": 63,
+            "xp": 142.5,
+            "unfPotion": "Snapdragon potion (unf)",
+            "unfPotionItemId": 3004,
+            "herb": "Snapdragon",
+            "herbItemId": 3000,
+            "secondary": "Red spiders' eggs",
+            "secondaryItemId": 223,
+            "icon": "Super_restore(3).png"
+          },
+          {
+            "name": "Super defence",
+            "itemId": 163,
+            "level": 66,
+            "xp": 150.0,
+            "unfPotion": "Cadantine potion (unf)",
+            "unfPotionItemId": 107,
+            "herb": "Cadantine",
+            "herbItemId": 265,
+            "secondary": "White berries",
+            "secondaryItemId": 239,
+            "icon": "Super_defence(3).png"
+          },
+          {
+            "name": "Antifire potion",
+            "itemId": 2454,
+            "level": 69,
+            "xp": 157.5,
+            "unfPotion": "Lantadyme potion (unf)",
+            "unfPotionItemId": 2483,
+            "herb": "Lantadyme",
+            "herbItemId": 2481,
+            "secondary": "Dragon scale dust",
+            "secondaryItemId": 241,
+            "icon": "Antifire_potion(3).png"
+          },
+          {
+            "name": "Ranging potion",
+            "itemId": 169,
+            "level": 72,
+            "xp": 162.5,
+            "unfPotion": "Dwarf weed potion (unf)",
+            "unfPotionItemId": 109,
+            "herb": "Dwarf weed",
+            "herbItemId": 267,
+            "secondary": "Wine of zamorak",
+            "secondaryItemId": 245,
+            "icon": "Ranging_potion(3).png"
+          },
+          {
+            "name": "Magic potion",
+            "itemId": 3042,
+            "level": 76,
+            "xp": 172.5,
+            "unfPotion": "Lantadyme potion (unf)",
+            "unfPotionItemId": 2483,
+            "herb": "Lantadyme",
+            "herbItemId": 2481,
+            "secondary": "Potato cactus",
+            "secondaryItemId": 3138,
+            "icon": "Magic_potion(3).png"
+          },
+          {
+            "name": "Zamorak brew",
+            "itemId": 189,
+            "level": 78,
+            "xp": 175.0,
+            "unfPotion": "Torstol potion (unf)",
+            "unfPotionItemId": 111,
+            "herb": "Torstol",
+            "herbItemId": 269,
+            "secondary": "Jangerberries",
+            "secondaryItemId": 247,
+            "icon": "Zamorak_brew(3).png"
+          },
+          {
+            "name": "Saradomin brew",
+            "itemId": 6687,
+            "level": 81,
+            "xp": 180.0,
+            "unfPotion": "Toadflax potion (unf)",
+            "unfPotionItemId": 3002,
+            "herb": "Toadflax",
+            "herbItemId": 2998,
+            "secondary": "Crushed nest",
+            "secondaryItemId": 6693,
+            "icon": "Saradomin_brew(3).png"
+          },
+          {
+            "name": "Surge potion",
+            "itemId": 30878,
+            "level": 81,
+            "xp": 185.0,
+            "unfPotion": "Torstol potion (unf)",
+            "unfPotionItemId": 111,
+            "herb": "Torstol",
+            "herbItemId": 269,
+            "secondary": "Demonic tallow",
+            "secondaryItemId": 30800,
+            "icon": "Surge_potion(3).png"
+          },
+          {
+            "name": "Ancient brew",
+            "itemId": 26342,
+            "level": 85,
+            "xp": 190.0,
+            "unfPotion": "Dwarf weed potion (unf)",
+            "unfPotionItemId": 109,
+            "herb": "Dwarf weed",
+            "herbItemId": 267,
+            "secondary": "Nihil dust",
+            "secondaryItemId": 26368,
+            "icon": "Ancient_brew(3).png"
+          },
+          {
+            "name": "Menaphite remedy",
+            "itemId": 27205,
+            "level": 88,
+            "xp": 200.0,
+            "unfPotion": "Dwarf weed potion (unf)",
+            "unfPotionItemId": 109,
+            "herb": "Dwarf weed",
+            "herbItemId": 267,
+            "secondary": "Lily of the sands",
+            "secondaryItemId": 27272,
+            "icon": "Menaphite_remedy(3).png"
+          }
+        ]
+      },
+      "coconutMilkPotions": {
+        "description": "Potions made using coconut milk as a base instead of a vial of water.",
+        "base": "Coconut milk",
+        "baseItemId": 5935,
+        "items": [
+          {
+            "name": "Antidote+",
+            "itemId": 5945,
+            "level": 68,
+            "xp": 155.0,
+            "herb": "Toadflax",
+            "herbItemId": 2998,
+            "secondary": "Yew roots",
+            "secondaryItemId": 6049,
+            "icon": "Antidote%2B(3).png"
+          },
+          {
+            "name": "Weapon poison(+)",
+            "itemId": 5937,
+            "level": 73,
+            "xp": 190.0,
+            "herb": "Cactus spine",
+            "herbItemId": 6016,
+            "secondary": "Red spiders' eggs",
+            "secondaryItemId": 223,
+            "icon": "Weapon_poison(%2B).png"
+          },
+          {
+            "name": "Antidote++",
+            "itemId": 5954,
+            "level": 79,
+            "xp": 177.5,
+            "herb": "Irit leaf",
+            "herbItemId": 259,
+            "secondary": "Magic roots",
+            "secondaryItemId": 6051,
+            "icon": "Antidote%2B%2B(3).png"
+          },
+          {
+            "name": "Weapon poison(++)",
+            "itemId": 5940,
+            "level": 82,
+            "xp": 190.0,
+            "herb": "Cave nightshade",
+            "herbItemId": 2398,
+            "secondary": "Poison ivy berries",
+            "secondaryItemId": 6018,
+            "icon": "Weapon_poison(%2B%2B).png"
+          }
+        ]
+      },
+      "bloodVialPotions": {
+        "description": "Potions made using a vial of blood as a base, requiring a cadantine blood potion (unf).",
+        "base": "Vial of blood",
+        "baseItemId": 22446,
+        "unfPotion": "Cadantine blood potion (unf)",
+        "unfPotionItemId": 22443,
+        "items": [
+          {
+            "name": "Bastion potion",
+            "itemId": 22464,
+            "level": 80,
+            "xp": 155.0,
+            "unfPotion": "Cadantine blood potion (unf)",
+            "unfPotionItemId": 22443,
+            "herb": "Cadantine",
+            "herbItemId": 265,
+            "secondary": "Wine of zamorak",
+            "secondaryItemId": 245,
+            "icon": "Bastion_potion(3).png"
+          },
+          {
+            "name": "Battlemage potion",
+            "itemId": 22452,
+            "level": 80,
+            "xp": 155.0,
+            "unfPotion": "Cadantine blood potion (unf)",
+            "unfPotionItemId": 22443,
+            "herb": "Cadantine",
+            "herbItemId": 265,
+            "secondary": "Potato cactus",
+            "secondaryItemId": 3138,
+            "icon": "Battlemage_potion(3).png"
+          }
+        ]
+      },
+      "extendedPotions": {
+        "description": "Extended potions are made by adding a secondary ingredient to an existing 4-dose potion to extend its duration.",
+        "items": [
+          {
+            "name": "Extended antifire",
+            "itemId": 11953,
+            "level": 84,
+            "xp": 110.0,
+            "input": "Antifire potion(4)",
+            "inputItemId": 2452,
+            "secondary": "Lava scale shard",
+            "secondaryItemId": 11994,
+            "icon": "Extended_antifire(3).png"
+          },
+          {
+            "name": "Extended stamina potion",
+            "itemId": 31641,
+            "level": 85,
+            "xp": 110.0,
+            "input": "Stamina potion(4)",
+            "inputItemId": 12625,
+            "secondary": "Marlin scales",
+            "secondaryItemId": 32362,
+            "icon": "Extended_stamina_potion(3).png"
+          },
+          {
+            "name": "Extended super antifire",
+            "itemId": 22212,
+            "level": 98,
+            "xp": 160.0,
+            "input": "Super antifire potion(4)",
+            "inputItemId": 21978,
+            "secondary": "Lava scale shard",
+            "secondaryItemId": 11994,
+            "icon": "Extended_super_antifire(3).png"
+          },
+          {
+            "name": "Extended anti-venom+",
+            "itemId": 29827,
+            "level": 94,
+            "xp": 80.0,
+            "input": "Anti-venom+(4)",
+            "inputItemId": 12913,
+            "secondary": "Araxyte venom sack",
+            "secondaryItemId": 29784,
+            "icon": "Extended_anti-venom%2B(3).png"
+          }
+        ]
+      },
+      "combinedPotions": {
+        "description": "Potions made by combining existing potions or adding special ingredients to existing potions.",
+        "items": [
+          {
+            "name": "Stamina potion",
+            "itemId": 12627,
+            "level": 77,
+            "xp": 102.0,
+            "input": "Super energy(4)",
+            "inputItemId": 3016,
+            "secondary": "Amylase crystal",
+            "secondaryItemId": 12640,
+            "secondaryQty": 4,
+            "icon": "Stamina_potion(3).png"
+          },
+          {
+            "name": "Anti-venom",
+            "itemId": 12907,
+            "level": 87,
+            "xp": 120.0,
+            "input": "Antidote++(4)",
+            "inputItemId": 5952,
+            "secondary": "Zulrah's scales",
+            "secondaryItemId": 12934,
+            "secondaryQty": 20,
+            "icon": "Anti-venom(3).png"
+          },
+          {
+            "name": "Super combat potion",
+            "itemId": 12697,
+            "level": 90,
+            "xp": 150.0,
+            "inputs": [
+              { "name": "Super attack(4)", "itemId": 2436 },
+              { "name": "Super strength(4)", "itemId": 2440 },
+              { "name": "Super defence(4)", "itemId": 2442 }
+            ],
+            "secondary": "Torstol",
+            "secondaryItemId": 269,
+            "icon": "Super_combat_potion(3).png"
+          },
+          {
+            "name": "Sanfew serum",
+            "itemId": 10927,
+            "level": 65,
+            "xp": 160.0,
+            "input": "Super restore(4)",
+            "inputItemId": 3024,
+            "secondaries": [
+              { "name": "Unicorn horn dust", "itemId": 235 },
+              { "name": "Snake weed", "itemId": 1526 },
+              { "name": "Nail beast nails", "itemId": 10937 }
+            ],
+            "icon": "Sanfew_serum(3).png"
+          },
+          {
+            "name": "Forgotten brew",
+            "itemId": 27632,
+            "level": 91,
+            "xp": 145.0,
+            "input": "Ancient brew(4)",
+            "inputItemId": 26340,
+            "secondary": "Ancient essence",
+            "secondaryItemId": 27616,
+            "icon": "Forgotten_brew(3).png"
+          },
+          {
+            "name": "Anti-venom+",
+            "itemId": 12915,
+            "level": 94,
+            "xp": 125.0,
+            "input": "Anti-venom(4)",
+            "inputItemId": 12905,
+            "secondary": "Torstol",
+            "secondaryItemId": 269,
+            "icon": "Anti-venom%2B(3).png"
+          },
+          {
+            "name": "Super antifire potion",
+            "itemId": 21981,
+            "level": 92,
+            "xp": 130.0,
+            "input": "Antifire potion(4)",
+            "inputItemId": 2452,
+            "secondary": "Crushed superior dragon bones",
+            "secondaryItemId": 21975,
+            "icon": "Super_antifire_potion(3).png"
+          },
+          {
+            "name": "Extreme energy potion",
+            "itemId": 31617,
+            "level": 66,
+            "xp": 84.0,
+            "input": "Super energy(4)",
+            "inputItemId": 3016,
+            "secondary": "Yellow fin",
+            "secondaryItemId": 31581,
+            "icon": "Extreme_energy_potion(3).png"
+          },
+          {
+            "name": "Super fishing potion",
+            "itemId": 31605,
+            "level": 62,
+            "xp": 132.0,
+            "input": "Pillar potion (unf)",
+            "inputItemId": 31569,
+            "secondary": "Haddock eye",
+            "secondaryItemId": 31577,
+            "icon": "Super_fishing_potion(3).png"
+          },
+          {
+            "name": "Super hunter potion",
+            "itemId": 31629,
+            "level": 67,
+            "xp": 154.0,
+            "input": "Pillar potion (unf)",
+            "inputItemId": 31569,
+            "secondary": "Crab paste",
+            "secondaryItemId": 31579,
+            "icon": "Super_hunter_potion(3).png"
+          },
+          {
+            "name": "Armadyl brew",
+            "itemId": 31653,
+            "level": 89,
+            "xp": 205.0,
+            "input": "Umbral potion (unf)",
+            "inputItemId": 31571,
+            "secondary": "Rainbow crab paste",
+            "secondaryItemId": 31583,
+            "icon": "Armadyl_brew(3).png"
+          }
+        ]
+      },
+      "divinePotions": {
+        "description": "Divine potions are made by adding crystal dust to a 4-dose potion. They maintain their boost for 5 minutes without degrading.",
+        "secondary": "Crystal dust",
+        "secondaryItemId": 23964,
+        "secondaryIcon": "Crystal_dust.png",
+        "items": [
+          {
+            "name": "Divine super attack potion",
+            "itemId": 23700,
+            "level": 70,
+            "xp": 2.0,
+            "input": "Super attack(4)",
+            "inputItemId": 2436,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_super_attack_potion(3).png"
+          },
+          {
+            "name": "Divine super defence potion",
+            "itemId": 23724,
+            "level": 70,
+            "xp": 2.0,
+            "input": "Super defence(4)",
+            "inputItemId": 2442,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_super_defence_potion(3).png"
+          },
+          {
+            "name": "Divine super strength potion",
+            "itemId": 23712,
+            "level": 70,
+            "xp": 2.0,
+            "input": "Super strength(4)",
+            "inputItemId": 2440,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_super_strength_potion(3).png"
+          },
+          {
+            "name": "Divine ranging potion",
+            "itemId": 23736,
+            "level": 74,
+            "xp": 2.0,
+            "input": "Ranging potion(4)",
+            "inputItemId": 2444,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_ranging_potion(3).png"
+          },
+          {
+            "name": "Divine magic potion",
+            "itemId": 23748,
+            "level": 78,
+            "xp": 2.0,
+            "input": "Magic potion(4)",
+            "inputItemId": 3040,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_magic_potion(3).png"
+          },
+          {
+            "name": "Divine bastion potion",
+            "itemId": 24638,
+            "level": 86,
+            "xp": 2.0,
+            "input": "Bastion potion(4)",
+            "inputItemId": 22461,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_bastion_potion(3).png"
+          },
+          {
+            "name": "Divine battlemage potion",
+            "itemId": 24626,
+            "level": 86,
+            "xp": 2.0,
+            "input": "Battlemage potion(4)",
+            "inputItemId": 22449,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_battlemage_potion(3).png"
+          },
+          {
+            "name": "Divine super combat potion",
+            "itemId": 23688,
+            "level": 97,
+            "xp": 2.0,
+            "input": "Super combat potion(4)",
+            "inputItemId": 12695,
+            "secondary": "Crystal dust",
+            "secondaryItemId": 23964,
+            "icon": "Divine_super_combat_potion(3).png"
+          }
+        ]
+      }
+    }
+  }
+}
