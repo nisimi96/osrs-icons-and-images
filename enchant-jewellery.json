@@ -26,7 +26,7 @@
       "name": "Lvl-1 Enchant",
       "magicLevel": 7,
       "xp": 17.5,
-      "spellIcon": "Lvl-1_Enchant.png",
+      "spellIcon": "Lvl-1_Enchant_icon.png",
       "runes": [
         {"name": "Water rune", "quantity": 1},
         {"name": "Cosmic rune", "quantity": 1}
@@ -38,7 +38,7 @@
         {"gem": "Opal", "type": "Bracelet", "input": "Opal bracelet", "output": "Expeditious bracelet"},
         {"gem": "Opal", "type": "Amulet", "input": "Opal amulet", "output": "Amulet of bounty"},
         {"gem": "Sapphire", "type": "Ring", "input": "Sapphire ring", "output": "Ring of recoil"},
-        {"gem": "Sapphire", "type": "Necklace", "input": "Sapphire necklace", "output": "Games necklace"},
+        {"gem": "Sapphire", "type": "Necklace", "input": "Sapphire necklace", "output": "Games necklace(8)"},
         {"gem": "Sapphire", "type": "Bracelet", "input": "Sapphire bracelet", "output": "Bracelet of clay"},
         {"gem": "Sapphire", "type": "Amulet", "input": "Sapphire amulet", "output": "Amulet of magic"}
       ]
@@ -48,20 +48,20 @@
       "name": "Lvl-2 Enchant",
       "magicLevel": 27,
       "xp": 37,
-      "spellIcon": "Lvl-2_Enchant.png",
+      "spellIcon": "Lvl-2_Enchant_icon.png",
       "runes": [
         {"name": "Air rune", "quantity": 3},
         {"name": "Cosmic rune", "quantity": 1}
       ],
       "gems": ["Jade", "Emerald"],
       "items": [
-        {"gem": "Jade", "type": "Ring", "input": "Jade ring", "output": "Ring of returning"},
-        {"gem": "Jade", "type": "Necklace", "input": "Jade necklace", "output": "Necklace of passage"},
+        {"gem": "Jade", "type": "Ring", "input": "Jade ring", "output": "Ring of returning(5)"},
+        {"gem": "Jade", "type": "Necklace", "input": "Jade necklace", "output": "Necklace of passage(5)"},
         {"gem": "Jade", "type": "Bracelet", "input": "Jade bracelet", "output": "Flamtaer bracelet"},
         {"gem": "Jade", "type": "Amulet", "input": "Jade amulet", "output": "Amulet of chemistry"},
-        {"gem": "Emerald", "type": "Ring", "input": "Emerald ring", "output": "Ring of dueling"},
+        {"gem": "Emerald", "type": "Ring", "input": "Emerald ring", "output": "Ring of dueling(8)"},
         {"gem": "Emerald", "type": "Necklace", "input": "Emerald necklace", "output": "Binding necklace"},
-        {"gem": "Emerald", "type": "Bracelet", "input": "Emerald bracelet", "output": "Castle wars bracelet"},
+        {"gem": "Emerald", "type": "Bracelet", "input": "Emerald bracelet", "output": "Castle wars bracelet(3)"},
         {"gem": "Emerald", "type": "Amulet", "input": "Emerald amulet", "output": "Amulet of defence"}
       ]
     },
@@ -70,7 +70,7 @@
       "name": "Lvl-3 Enchant",
       "magicLevel": 49,
       "xp": 59,
-      "spellIcon": "Lvl-3_Enchant.png",
+      "spellIcon": "Lvl-3_Enchant_icon.png",
       "runes": [
         {"name": "Fire rune", "quantity": 5},
         {"name": "Cosmic rune", "quantity": 1}
@@ -80,9 +80,9 @@
         {"gem": "Red topaz", "type": "Ring", "input": "Topaz ring", "output": "Efaritay's aid"},
         {"gem": "Red topaz", "type": "Necklace", "input": "Topaz necklace", "output": "Necklace of faith"},
         {"gem": "Red topaz", "type": "Bracelet", "input": "Topaz bracelet", "output": "Bracelet of slaughter"},
-        {"gem": "Red topaz", "type": "Amulet", "input": "Topaz amulet", "output": "Burning amulet"},
+        {"gem": "Red topaz", "type": "Amulet", "input": "Topaz amulet", "output": "Burning amulet(5)"},
         {"gem": "Ruby", "type": "Ring", "input": "Ruby ring", "output": "Ring of forging"},
-        {"gem": "Ruby", "type": "Necklace", "input": "Ruby necklace", "output": "Digsite pendant"},
+        {"gem": "Ruby", "type": "Necklace", "input": "Ruby necklace", "output": "Digsite pendant(5)"},
         {"gem": "Ruby", "type": "Bracelet", "input": "Ruby bracelet", "output": "Inoculation bracelet"},
         {"gem": "Ruby", "type": "Amulet", "input": "Ruby amulet", "output": "Amulet of strength"}
       ]
@@ -92,7 +92,7 @@
       "name": "Lvl-4 Enchant",
       "magicLevel": 57,
       "xp": 67,
-      "spellIcon": "Lvl-4_Enchant.png",
+      "spellIcon": "Lvl-4_Enchant_icon.png",
       "runes": [
         {"name": "Earth rune", "quantity": 10},
         {"name": "Cosmic rune", "quantity": 1}
@@ -101,7 +101,7 @@
       "items": [
         {"gem": "Diamond", "type": "Ring", "input": "Diamond ring", "output": "Ring of life"},
         {"gem": "Diamond", "type": "Necklace", "input": "Diamond necklace", "output": "Phoenix necklace"},
-        {"gem": "Diamond", "type": "Bracelet", "input": "Diamond bracelet", "output": "Abyssal bracelet"},
+        {"gem": "Diamond", "type": "Bracelet", "input": "Diamond bracelet", "output": "Abyssal bracelet(5)"},
         {"gem": "Diamond", "type": "Amulet", "input": "Diamond amulet", "output": "Amulet of power"}
       ]
     },
@@ -110,7 +110,7 @@
       "name": "Lvl-5 Enchant",
       "magicLevel": 68,
       "xp": 78,
-      "spellIcon": "Lvl-5_Enchant.png",
+      "spellIcon": "Lvl-5_Enchant_icon.png",
       "runes": [
         {"name": "Water rune", "quantity": 15},
         {"name": "Earth rune", "quantity": 15},
@@ -129,7 +129,7 @@
       "name": "Lvl-6 Enchant",
       "magicLevel": 87,
       "xp": 97,
-      "spellIcon": "Lvl-6_Enchant.png",
+      "spellIcon": "Lvl-6_Enchant_icon.png",
       "runes": [
         {"name": "Fire rune", "quantity": 20},
         {"name": "Earth rune", "quantity": 20},
@@ -148,7 +148,7 @@
       "name": "Lvl-7 Enchant",
       "magicLevel": 93,
       "xp": 110,
-      "spellIcon": "Lvl-7_Enchant.png",
+      "spellIcon": "Lvl-7_Enchant_icon.png",
       "runes": [
         {"name": "Blood rune", "quantity": 20},
         {"name": "Soul rune", "quantity": 20},
