@@ -1,0 +1,79 @@
+{
+  "free": {
+    "crafting": {
+      "gemCutting": [
+        "Opal",
+        "Jade",
+        "Red topaz",
+        "Sapphire"
+      ],
+      "glassBlowing": true,
+      "amethyst": false,
+      "battlestaff": false,
+      "hideCrafting": [
+        "Leather",
+        "Green Dragonhide",
+        "Xerician"
+      ]
+    },
+    "herblore": {
+      "herbCleaning": true,
+      "potionStages": [
+        "UNF_POTION"
+      ],
+      "tarMaking": true,
+      "barbarianMix": true,
+      "guthixRest": true
+    },
+    "magic": {
+      "enchantJewellery": [
+        "Opal",
+        "Jade",
+        "Red topaz",
+        "Sapphire",
+        "Emerald",
+        "Ruby",
+        "Diamond"
+      ],
+      "boltEnchant": [
+        "Opal",
+        "Jade",
+        "Pearl",
+        "Red topaz"
+      ],
+      "superheat": [
+        "Bronze bar",
+        "Iron bar",
+        "Silver bar",
+        "Steel bar",
+        "Gold bar",
+        "Mithril bar"
+      ],
+      "highAlch": true
+    },
+    "fletching": {
+      "cutBows": true,
+      "stringBows": true,
+      "shields": {
+        "allowed": true,
+        "blocked": [
+          "Redwood"
+        ]
+      },
+      "cutAndString": false,
+      "inventoryFletching": true
+    },
+    "firemaking": {
+      "logs": true
+    },
+    "limits": {
+      "autoQuantityAllowed": false
+    }
+  },
+  "premium": {
+    "allMethodsUnlocked": true,
+    "limits": {
+      "autoQuantityAllowed": true
+    }
+  }
+}
