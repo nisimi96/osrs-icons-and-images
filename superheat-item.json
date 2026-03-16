@@ -1,0 +1,115 @@
+{
+  "icons": {
+    "baseUrl": "https://oldschool.runescape.wiki/images/",
+    "spellIcon": "Superheat_Item_icon.png",
+    "ores": {
+      "Tin ore": "Tin_ore.png",
+      "Copper ore": "Copper_ore.png",
+      "Iron ore": "Iron_ore.png",
+      "Silver ore": "Silver_ore.png",
+      "Gold ore": "Gold_ore.png",
+      "Coal": "Coal.png",
+      "Mithril ore": "Mithril_ore.png",
+      "Adamantite ore": "Adamantite_ore.png",
+      "Runite ore": "Runite_ore.png"
+    },
+    "bars": {
+      "Bronze bar": "Bronze_bar.png",
+      "Iron bar": "Iron_bar.png",
+      "Silver bar": "Silver_bar.png",
+      "Steel bar": "Steel_bar.png",
+      "Gold bar": "Gold_bar.png",
+      "Mithril bar": "Mithril_bar.png",
+      "Adamantite bar": "Adamantite_bar.png",
+      "Runite bar": "Runite_bar.png"
+    }
+  },
+  "spellInfo": {
+    "name": "Superheat Item",
+    "magicLevel": 43,
+    "magicXp": 53,
+    "runes": [
+      { "name": "Nature rune", "quantity": 1 },
+      { "name": "Fire rune", "quantity": 4 }
+    ]
+  },
+  "bars": [
+    {
+      "name": "Bronze bar",
+      "smithingLevel": 1,
+      "smithingXp": 6.2,
+      "icon": "Bronze_bar.png",
+      "inputs": [
+        { "name": "Tin ore", "quantity": 1 },
+        { "name": "Copper ore", "quantity": 1 }
+      ]
+    },
+    {
+      "name": "Iron bar",
+      "smithingLevel": 15,
+      "smithingXp": 12.5,
+      "icon": "Iron_bar.png",
+      "inputs": [
+        { "name": "Iron ore", "quantity": 1 }
+      ]
+    },
+    {
+      "name": "Silver bar",
+      "smithingLevel": 20,
+      "smithingXp": 13.7,
+      "icon": "Silver_bar.png",
+      "inputs": [
+        { "name": "Silver ore", "quantity": 1 }
+      ]
+    },
+    {
+      "name": "Steel bar",
+      "smithingLevel": 30,
+      "smithingXp": 17.5,
+      "icon": "Steel_bar.png",
+      "inputs": [
+        { "name": "Iron ore", "quantity": 1 },
+        { "name": "Coal", "quantity": 2 }
+      ]
+    },
+    {
+      "name": "Gold bar",
+      "smithingLevel": 40,
+      "smithingXp": 22.5,
+      "icon": "Gold_bar.png",
+      "inputs": [
+        { "name": "Gold ore", "quantity": 1 }
+      ]
+    },
+    {
+      "name": "Mithril bar",
+      "smithingLevel": 50,
+      "smithingXp": 30,
+      "icon": "Mithril_bar.png",
+      "inputs": [
+        { "name": "Mithril ore", "quantity": 1 },
+        { "name": "Coal", "quantity": 4 }
+      ]
+    },
+    {
+      "name": "Adamantite bar",
+      "smithingLevel": 70,
+      "smithingXp": 37.5,
+      "icon": "Adamantite_bar.png",
+      "inputs": [
+        { "name": "Adamantite ore", "quantity": 1 },
+        { "name": "Coal", "quantity": 6 }
+      ]
+    },
+    {
+      "name": "Runite bar",
+      "smithingLevel": 85,
+      "smithingXp": 50,
+      "icon": "Runite_bar.png",
+      "inputs": [
+        { "name": "Runite ore", "quantity": 1 },
+        { "name": "Coal", "quantity": 8 }
+      ]
+    }
+  ]
+}
