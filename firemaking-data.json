@@ -1,0 +1,17 @@
+{
+  "icons": {
+    "baseUrl": "https://oldschool.runescape.wiki/images/"
+  },
+  "logs": [
+    { "name": "Logs",             "level": 1,  "xp": 40.0,  "icon": "Logs.png" },
+    { "name": "Oak logs",         "level": 15, "xp": 60.0,  "icon": "Oak_logs.png" },
+    { "name": "Willow logs",      "level": 30, "xp": 90.0,  "icon": "Willow_logs.png" },
+    { "name": "Teak logs",        "level": 35, "xp": 105.0, "icon": "Teak_logs.png" },
+    { "name": "Arctic pine logs", "level": 42, "xp": 125.0, "icon": "Arctic_pine_logs.png" },
+    { "name": "Maple logs",       "level": 45, "xp": 135.0, "icon": "Maple_logs.png" },
+    { "name": "Mahogany logs",    "level": 50, "xp": 157.5, "icon": "Mahogany_logs.png" },
+    { "name": "Yew logs",         "level": 60, "xp": 202.5, "icon": "Yew_logs.png" },
+    { "name": "Magic logs",       "level": 75, "xp": 303.8, "icon": "Magic_logs.png" },
+    { "name": "Redwood logs",     "level": 90, "xp": 350.0, "icon": "Redwood_logs.png" }
+  ]
+}
