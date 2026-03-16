@@ -1,0 +1,379 @@
+{
+  "icons": {
+    "baseUrl": "https://oldschool.runescape.wiki/images/"
+  },
+  "methods": {
+    "cutBows": {
+      "tool": "Knife",
+      "toolItemId": 946,
+      "items": [
+        {
+          "name": "Normal",
+          "log": "Logs",
+          "logItemId": 1511,
+          "shortbowLevel": 5,
+          "shortbowXp": 5.0,
+          "outputShortbow": "Shortbow (u)",
+          "outputShortbowItemId": 50,
+          "longbowLevel": 10,
+          "longbowXp": 10.0,
+          "outputLongbow": "Longbow (u)",
+          "outputLongbowItemId": 48,
+          "icon": "Logs_detail.png"
+        },
+        {
+          "name": "Oak",
+          "log": "Oak logs",
+          "logItemId": 1521,
+          "shortbowLevel": 20,
+          "shortbowXp": 16.5,
+          "outputShortbow": "Oak shortbow (u)",
+          "outputShortbowItemId": 54,
+          "longbowLevel": 25,
+          "longbowXp": 25.0,
+          "outputLongbow": "Oak longbow (u)",
+          "outputLongbowItemId": 56,
+          "icon": "Oak_logs_detail.png"
+        },
+        {
+          "name": "Willow",
+          "log": "Willow logs",
+          "logItemId": 1519,
+          "shortbowLevel": 35,
+          "shortbowXp": 33.3,
+          "outputShortbow": "Willow shortbow (u)",
+          "outputShortbowItemId": 60,
+          "longbowLevel": 40,
+          "longbowXp": 41.5,
+          "outputLongbow": "Willow longbow (u)",
+          "outputLongbowItemId": 58,
+          "icon": "Willow_logs_detail.png"
+        },
+        {
+          "name": "Maple",
+          "log": "Maple logs",
+          "logItemId": 1517,
+          "shortbowLevel": 50,
+          "shortbowXp": 50.0,
+          "outputShortbow": "Maple shortbow (u)",
+          "outputShortbowItemId": 64,
+          "longbowLevel": 55,
+          "longbowXp": 58.3,
+          "outputLongbow": "Maple longbow (u)",
+          "outputLongbowItemId": 62,
+          "icon": "Maple_logs_detail.png"
+        },
+        {
+          "name": "Yew",
+          "log": "Yew logs",
+          "logItemId": 1515,
+          "shortbowLevel": 65,
+          "shortbowXp": 67.5,
+          "outputShortbow": "Yew shortbow (u)",
+          "outputShortbowItemId": 68,
+          "longbowLevel": 70,
+          "longbowXp": 75.0,
+          "outputLongbow": "Yew longbow (u)",
+          "outputLongbowItemId": 66,
+          "icon": "Yew_logs_detail.png"
+        },
+        {
+          "name": "Magic",
+          "log": "Magic logs",
+          "logItemId": 1513,
+          "shortbowLevel": 80,
+          "shortbowXp": 83.3,
+          "outputShortbow": "Magic shortbow (u)",
+          "outputShortbowItemId": 72,
+          "longbowLevel": 85,
+          "longbowXp": 91.5,
+          "outputLongbow": "Magic longbow (u)",
+          "outputLongbowItemId": 70,
+          "icon": "Magic_logs_detail.png"
+        }
+      ]
+    },
+    "stringBows": {
+      "bowstringName": "Bow string",
+      "bowstringItemId": 1777,
+      "items": [
+        {
+          "name": "Shortbow",
+          "unstrung": "Shortbow (u)",
+          "unstrungItemId": 50,
+          "output": "Shortbow",
+          "outputItemId": 841,
+          "level": 5,
+          "xp": 5.0,
+          "icon": "Shortbow_detail.png"
+        },
+        {
+          "name": "Longbow",
+          "unstrung": "Longbow (u)",
+          "unstrungItemId": 48,
+          "output": "Longbow",
+          "outputItemId": 839,
+          "level": 10,
+          "xp": 10.0,
+          "icon": "Longbow_detail.png"
+        },
+        {
+          "name": "Oak shortbow",
+          "unstrung": "Oak shortbow (u)",
+          "unstrungItemId": 54,
+          "output": "Oak shortbow",
+          "outputItemId": 843,
+          "level": 20,
+          "xp": 16.5,
+          "icon": "Oak_shortbow_detail.png"
+        },
+        {
+          "name": "Oak longbow",
+          "unstrung": "Oak longbow (u)",
+          "unstrungItemId": 56,
+          "output": "Oak longbow",
+          "outputItemId": 845,
+          "level": 25,
+          "xp": 25.0,
+          "icon": "Oak_longbow_detail.png"
+        },
+        {
+          "name": "Willow shortbow",
+          "unstrung": "Willow shortbow (u)",
+          "unstrungItemId": 60,
+          "output": "Willow shortbow",
+          "outputItemId": 849,
+          "level": 35,
+          "xp": 33.3,
+          "icon": "Willow_shortbow_detail.png"
+        },
+        {
+          "name": "Willow longbow",
+          "unstrung": "Willow longbow (u)",
+          "unstrungItemId": 58,
+          "output": "Willow longbow",
+          "outputItemId": 847,
+          "level": 40,
+          "xp": 41.5,
+          "icon": "Willow_longbow_detail.png"
+        },
+        {
+          "name": "Maple shortbow",
+          "unstrung": "Maple shortbow (u)",
+          "unstrungItemId": 64,
+          "output": "Maple shortbow",
+          "outputItemId": 853,
+          "level": 50,
+          "xp": 50.0,
+          "icon": "Maple_shortbow_detail.png"
+        },
+        {
+          "name": "Maple longbow",
+          "unstrung": "Maple longbow (u)",
+          "unstrungItemId": 62,
+          "output": "Maple longbow",
+          "outputItemId": 851,
+          "level": 55,
+          "xp": 58.3,
+          "icon": "Maple_longbow_detail.png"
+        },
+        {
+          "name": "Yew shortbow",
+          "unstrung": "Yew shortbow (u)",
+          "unstrungItemId": 68,
+          "output": "Yew shortbow",
+          "outputItemId": 857,
+          "level": 65,
+          "xp": 67.5,
+          "icon": "Yew_shortbow_detail.png"
+        },
+        {
+          "name": "Yew longbow",
+          "unstrung": "Yew longbow (u)",
+          "unstrungItemId": 66,
+          "output": "Yew longbow",
+          "outputItemId": 855,
+          "level": 70,
+          "xp": 75.0,
+          "icon": "Yew_longbow_detail.png"
+        },
+        {
+          "name": "Magic shortbow",
+          "unstrung": "Magic shortbow (u)",
+          "unstrungItemId": 72,
+          "output": "Magic shortbow",
+          "outputItemId": 861,
+          "level": 80,
+          "xp": 83.3,
+          "icon": "Magic_shortbow_detail.png"
+        },
+        {
+          "name": "Magic longbow",
+          "unstrung": "Magic longbow (u)",
+          "unstrungItemId": 70,
+          "output": "Magic longbow",
+          "outputItemId": 859,
+          "level": 85,
+          "xp": 91.5,
+          "icon": "Magic_longbow_detail.png"
+        }
+      ]
+    },
+    "shields": {
+      "tool": "Knife",
+      "toolItemId": 946,
+      "logQty": 2,
+      "items": [
+        {
+          "name": "Oak shield",
+          "log": "Oak logs",
+          "logItemId": 1521,
+          "output": "Oak shield",
+          "outputItemId": 22251,
+          "level": 27,
+          "xp": 50.0,
+          "icon": "Oak_shield_detail.png"
+        },
+        {
+          "name": "Willow shield",
+          "log": "Willow logs",
+          "logItemId": 1519,
+          "output": "Willow shield",
+          "outputItemId": 22254,
+          "level": 42,
+          "xp": 83.0,
+          "icon": "Willow_shield_detail.png"
+        },
+        {
+          "name": "Maple shield",
+          "log": "Maple logs",
+          "logItemId": 1517,
+          "output": "Maple shield",
+          "outputItemId": 22257,
+          "level": 57,
+          "xp": 116.5,
+          "icon": "Maple_shield_detail.png"
+        },
+        {
+          "name": "Yew shield",
+          "log": "Yew logs",
+          "logItemId": 1515,
+          "output": "Yew shield",
+          "outputItemId": 22260,
+          "level": 72,
+          "xp": 150.0,
+          "icon": "Yew_shield_detail.png"
+        },
+        {
+          "name": "Magic shield",
+          "log": "Magic logs",
+          "logItemId": 1513,
+          "output": "Magic shield",
+          "outputItemId": 22263,
+          "level": 87,
+          "xp": 183.0,
+          "icon": "Magic_shield_detail.png"
+        },
+        {
+          "name": "Redwood shield",
+          "log": "Redwood logs",
+          "logItemId": 19669,
+          "output": "Redwood shield",
+          "outputItemId": 22266,
+          "level": 92,
+          "xp": 216.0,
+          "icon": "Redwood_shield_detail.png"
+        }
+      ]
+    },
+    "inventoryFletching": {
+      "categories": {
+        "darts": {
+          "displayName": "Darts",
+          "batchSize": 10,
+          "secondaryItem": "Feather",
+          "secondaryItemId": 314,
+          "recipes": [
+            { "name": "Bronze dart", "input1": "Bronze dart tip", "input1ItemId": 819, "output": "Bronze dart", "outputItemId": 806, "level": 10, "xp": 1.8, "icon": "Bronze_dart_detail.png" },
+            { "name": "Iron dart", "input1": "Iron dart tip", "input1ItemId": 820, "output": "Iron dart", "outputItemId": 807, "level": 22, "xp": 3.8, "icon": "Iron_dart_detail.png" },
+            { "name": "Steel dart", "input1": "Steel dart tip", "input1ItemId": 821, "output": "Steel dart", "outputItemId": 808, "level": 37, "xp": 7.5, "icon": "Steel_dart_detail.png" },
+            { "name": "Mithril dart", "input1": "Mithril dart tip", "input1ItemId": 822, "output": "Mithril dart", "outputItemId": 809, "level": 52, "xp": 11.2, "icon": "Mithril_dart_detail.png" },
+            { "name": "Adamant dart", "input1": "Adamant dart tip", "input1ItemId": 823, "output": "Adamant dart", "outputItemId": 810, "level": 67, "xp": 15.0, "icon": "Adamant_dart_detail.png" },
+            { "name": "Rune dart", "input1": "Rune dart tip", "input1ItemId": 824, "output": "Rune dart", "outputItemId": 811, "level": 81, "xp": 18.8, "icon": "Rune_dart_detail.png" },
+            { "name": "Amethyst dart", "input1": "Amethyst dart tip", "input1ItemId": 25853, "output": "Amethyst dart", "outputItemId": 25849, "level": 90, "xp": 21.0, "icon": "Amethyst_dart_detail.png" },
+            { "name": "Dragon dart", "input1": "Dragon dart tip", "input1ItemId": 11232, "output": "Dragon dart", "outputItemId": 11230, "level": 95, "xp": 25.0, "icon": "Dragon_dart_detail.png" }
+          ]
+        },
+        "featheredBolts": {
+          "displayName": "Feathered Bolts",
+          "batchSize": 10,
+          "secondaryItem": "Feather",
+          "secondaryItemId": 314,
+          "recipes": [
+            { "name": "Bronze bolts", "input1": "Bronze bolts (unf)", "input1ItemId": 9375, "output": "Bronze bolts", "outputItemId": 877, "level": 9, "xp": 0.5, "icon": "Bronze_bolts_5_detail.png" },
+            { "name": "Iron bolts", "input1": "Iron bolts (unf)", "input1ItemId": 9377, "output": "Iron bolts", "outputItemId": 9140, "level": 39, "xp": 1.5, "icon": "Iron_bolts_5_detail.png" },
+            { "name": "Silver bolts", "input1": "Silver bolts (unf)", "input1ItemId": 9382, "output": "Silver bolts", "outputItemId": 9145, "level": 43, "xp": 2.5, "icon": "Silver_bolts_5_detail.png" },
+            { "name": "Steel bolts", "input1": "Steel bolts (unf)", "input1ItemId": 9378, "output": "Steel bolts", "outputItemId": 9141, "level": 46, "xp": 3.5, "icon": "Steel_bolts_5_detail.png" },
+            { "name": "Mithril bolts", "input1": "Mithril bolts (unf)", "input1ItemId": 9379, "output": "Mithril bolts", "outputItemId": 9142, "level": 54, "xp": 5.0, "icon": "Mithril_bolts_5_detail.png" },
+            { "name": "Broad bolts", "input1": "Unfinished broad bolts", "input1ItemId": 11876, "output": "Broad bolts", "outputItemId": 11875, "level": 55, "xp": 3.0, "icon": "Broad_bolts_5_detail.png" },
+            { "name": "Adamant bolts", "input1": "Adamant bolts (unf)", "input1ItemId": 9380, "output": "Adamant bolts", "outputItemId": 9143, "level": 61, "xp": 7.0, "icon": "Adamant_bolts_5_detail.png" },
+            { "name": "Runite bolts", "input1": "Runite bolts (unf)", "input1ItemId": 9381, "output": "Runite bolts", "outputItemId": 9144, "level": 69, "xp": 10.0, "icon": "Runite_bolts_5_detail.png" },
+            { "name": "Dragon bolts", "input1": "Dragon bolts (unf)", "input1ItemId": 21930, "output": "Dragon bolts", "outputItemId": 21905, "level": 84, "xp": 12.0, "icon": "Dragon_bolts_5_detail.png" }
+          ]
+        },
+        "tippedBolts": {
+          "displayName": "Tipped Bolts",
+          "batchSize": 10,
+          "recipes": [
+            { "name": "Opal bolts", "input1": "Bronze bolts", "input1ItemId": 877, "input2": "Opal bolt tips", "input2ItemId": 45, "output": "Opal bolts", "outputItemId": 879, "level": 11, "xp": 1.6, "icon": "Opal_bolts_5_detail.png" },
+            { "name": "Jade bolts", "input1": "Blurite bolts", "input1ItemId": 9139, "input2": "Jade bolt tips", "input2ItemId": 9187, "output": "Jade bolts", "outputItemId": 9335, "level": 26, "xp": 2.4, "icon": "Jade_bolts_5_detail.png" },
+            { "name": "Pearl bolts", "input1": "Iron bolts", "input1ItemId": 9140, "input2": "Pearl bolt tips", "input2ItemId": 46, "output": "Pearl bolts", "outputItemId": 880, "level": 41, "xp": 3.2, "icon": "Pearl_bolts_5_detail.png" },
+            { "name": "Topaz bolts", "input1": "Steel bolts", "input1ItemId": 9141, "input2": "Topaz bolt tips", "input2ItemId": 9188, "output": "Topaz bolts", "outputItemId": 9336, "level": 48, "xp": 3.9, "icon": "Topaz_bolts_5_detail.png" },
+            { "name": "Sapphire bolts", "input1": "Mithril bolts", "input1ItemId": 9142, "input2": "Sapphire bolt tips", "input2ItemId": 9189, "output": "Sapphire bolts", "outputItemId": 9337, "level": 56, "xp": 4.7, "icon": "Sapphire_bolts_5_detail.png" },
+            { "name": "Emerald bolts", "input1": "Mithril bolts", "input1ItemId": 9142, "input2": "Emerald bolt tips", "input2ItemId": 9190, "output": "Emerald bolts", "outputItemId": 9338, "level": 58, "xp": 5.5, "icon": "Emerald_bolts_5_detail.png" },
+            { "name": "Ruby bolts", "input1": "Adamant bolts", "input1ItemId": 9143, "input2": "Ruby bolt tips", "input2ItemId": 9191, "output": "Ruby bolts", "outputItemId": 9339, "level": 63, "xp": 6.3, "icon": "Ruby_bolts_5_detail.png" },
+            { "name": "Diamond bolts", "input1": "Adamant bolts", "input1ItemId": 9143, "input2": "Diamond bolt tips", "input2ItemId": 9192, "output": "Diamond bolts", "outputItemId": 9340, "level": 65, "xp": 7.0, "icon": "Diamond_bolts_5_detail.png" },
+            { "name": "Dragonstone bolts", "input1": "Runite bolts", "input1ItemId": 9144, "input2": "Dragonstone bolt tips", "input2ItemId": 9193, "output": "Dragonstone bolts", "outputItemId": 9341, "level": 71, "xp": 8.2, "icon": "Dragonstone_bolts_5_detail.png" },
+            { "name": "Onyx bolts", "input1": "Runite bolts", "input1ItemId": 9144, "input2": "Onyx bolt tips", "input2ItemId": 9194, "output": "Onyx bolts", "outputItemId": 9342, "level": 73, "xp": 9.4, "icon": "Onyx_bolts_5_detail.png" }
+          ]
+        },
+        "headlessArrows": {
+          "displayName": "Headless Arrows",
+          "batchSize": 15,
+          "recipes": [
+            { "name": "Headless arrow", "input1": "Arrow shaft", "input1ItemId": 52, "input2": "Feather", "input2ItemId": 314, "output": "Headless arrow", "outputItemId": 53, "level": 1, "xp": 1.0, "icon": "Headless_arrow_detail.png" }
+          ]
+        },
+        "finishedArrows": {
+          "displayName": "Finished Arrows",
+          "batchSize": 15,
+          "recipes": [
+            { "name": "Bronze arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Bronze arrowtips", "input2ItemId": 39, "output": "Bronze arrow", "outputItemId": 882, "level": 1, "xp": 1.3, "icon": "Bronze_arrow_detail.png" },
+            { "name": "Iron arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Iron arrowtips", "input2ItemId": 40, "output": "Iron arrow", "outputItemId": 884, "level": 15, "xp": 2.5, "icon": "Iron_arrow_detail.png" },
+            { "name": "Steel arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Steel arrowtips", "input2ItemId": 41, "output": "Steel arrow", "outputItemId": 886, "level": 30, "xp": 5.0, "icon": "Steel_arrow_detail.png" },
+            { "name": "Mithril arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Mithril arrowtips", "input2ItemId": 42, "output": "Mithril arrow", "outputItemId": 888, "level": 45, "xp": 7.5, "icon": "Mithril_arrow_detail.png" },
+            { "name": "Broad arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Broad arrowheads", "input2ItemId": 4161, "output": "Broad arrows", "outputItemId": 4160, "level": 52, "xp": 10.0, "icon": "Broad_arrows_detail.png" },
+            { "name": "Adamant arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Adamant arrowtips", "input2ItemId": 43, "output": "Adamant arrow", "outputItemId": 890, "level": 60, "xp": 10.0, "icon": "Adamant_arrow_detail.png" },
+            { "name": "Rune arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Rune arrowtips", "input2ItemId": 44, "output": "Rune arrow", "outputItemId": 892, "level": 75, "xp": 12.5, "icon": "Rune_arrow_detail.png" },
+            { "name": "Amethyst arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Amethyst arrowtips", "input2ItemId": 21350, "output": "Amethyst arrow", "outputItemId": 21326, "level": 82, "xp": 13.5, "icon": "Amethyst_arrow_detail.png" },
+            { "name": "Dragon arrow", "input1": "Headless arrow", "input1ItemId": 53, "input2": "Dragon arrowtips", "input2ItemId": 11237, "output": "Dragon arrow", "outputItemId": 11212, "level": 90, "xp": 15.0, "icon": "Dragon_arrow_detail.png" }
+          ]
+        },
+        "javelins": {
+          "displayName": "Javelins",
+          "batchSize": 15,
+          "recipes": [
+            { "name": "Bronze javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Bronze javelin heads", "input2ItemId": 19570, "output": "Bronze javelin", "outputItemId": 825, "level": 3, "xp": 1.0, "icon": "Bronze_javelin_detail.png" },
+            { "name": "Iron javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Iron javelin heads", "input2ItemId": 19572, "output": "Iron javelin", "outputItemId": 826, "level": 17, "xp": 2.0, "icon": "Iron_javelin_detail.png" },
+            { "name": "Steel javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Steel javelin heads", "input2ItemId": 19574, "output": "Steel javelin", "outputItemId": 827, "level": 32, "xp": 5.0, "icon": "Steel_javelin_detail.png" },
+            { "name": "Mithril javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Mithril javelin heads", "input2ItemId": 19576, "output": "Mithril javelin", "outputItemId": 828, "level": 47, "xp": 8.0, "icon": "Mithril_javelin_detail.png" },
+            { "name": "Adamant javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Adamant javelin heads", "input2ItemId": 19578, "output": "Adamant javelin", "outputItemId": 829, "level": 62, "xp": 10.0, "icon": "Adamant_javelin_detail.png" },
+            { "name": "Rune javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Rune javelin heads", "input2ItemId": 19580, "output": "Rune javelin", "outputItemId": 830, "level": 77, "xp": 12.4, "icon": "Rune_javelin_detail.png" },
+            { "name": "Amethyst javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Amethyst javelin heads", "input2ItemId": 21352, "output": "Amethyst javelin", "outputItemId": 21318, "level": 84, "xp": 13.5, "icon": "Amethyst_javelin_detail.png" },
+            { "name": "Dragon javelin", "input1": "Javelin shaft", "input1ItemId": 19584, "input2": "Dragon javelin heads", "input2ItemId": 19582, "output": "Dragon javelin", "outputItemId": 19484, "level": 92, "xp": 15.0, "icon": "Dragon_javelin_detail.png" }
+          ]
+        }
+      }
+    }
+  }
+}
